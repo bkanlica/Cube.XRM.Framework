@@ -1,0 +1,683 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Actions class">
+    <HelpKINode Title="Actions Class" Url="html/T-Cube.XRM.Framework.Actions.htm" />
+    <HelpKINode Title="Actions Members" Url="html/AllMembers.T-Cube.XRM.Framework.Actions.htm" />
+    <HelpKINode Title="about Actions class" Url="html/T-Cube.XRM.Framework.Actions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.Actions.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-Cube.XRM.Framework.Actions.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.Actions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Actions.Actions constructor" Url="html/Overload-Cube.XRM.Framework.Actions.-ctor.htm" />
+  <HelpKINode Title="Actions.Associate method" Url="html/M-Cube.XRM.Framework.Actions.Associate.htm" />
+  <HelpKINode Title="Actions.Create method" Url="html/M-Cube.XRM.Framework.Actions.Create.htm" />
+  <HelpKINode Title="Actions.Delete method" Url="html/M-Cube.XRM.Framework.Actions.Delete.htm" />
+  <HelpKINode Title="Actions.Disassociate method" Url="html/M-Cube.XRM.Framework.Actions.Disassociate.htm" />
+  <HelpKINode Title="Actions.Execute(Of T, V) method" Url="html/M-Cube.XRM.Framework.Actions.Execute--2.htm" />
+  <HelpKINode Title="Actions.Execute&lt;T, V&gt; method" Url="html/M-Cube.XRM.Framework.Actions.Execute--2.htm" />
+  <HelpKINode Title="Actions.Update method" Url="html/M-Cube.XRM.Framework.Actions.Update.htm" />
+  <HelpKINode Title="All enumeration member">
+    <HelpKINode Title="EnumCarrier.LogLevel Enumeration" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.htm" />
+    <HelpKINode Title="EnumCarrier.LogScreen Enumeration" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.LogScreen.htm" />
+  </HelpKINode>
+  <HelpKINode Title="All field">
+    <HelpKINode Title="All Field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogScreen.All.htm" />
+    <HelpKINode Title="All Field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.All.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Associate method" Url="html/M-Cube.XRM.Framework.Actions.Associate.htm" />
+  <HelpKINode Title="BaseSystemObject property" Url="html/P-Cube.XRM.Framework.CubeBase.BaseSystemObject.htm" />
+  <HelpKINode Title="BusinessObject property" Url="html/P-Cube.XRM.Framework.Result.BusinessObject.htm" />
+  <HelpKINode Title="BusinessObjectArray property" Url="html/P-Cube.XRM.Framework.Result.BusinessObjectArray.htm" />
+  <HelpKINode Title="CheckAndGenerateSolutionSettings class">
+    <HelpKINode Title="CheckAndGenerateSolutionSettings Class" Url="html/T-Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings.htm" />
+    <HelpKINode Title="CheckAndGenerateSolutionSettings Members" Url="html/AllMembers.T-Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings.htm" />
+    <HelpKINode Title="about CheckAndGenerateSolutionSettings class" Url="html/T-Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CheckAndGenerateSolutionSettings.Execute method" Url="html/M-Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings.Execute.htm" />
+  <HelpKINode Title="Clone method" Url="html/M-Cube.XRM.Framework.CubeEntityExtension.Clone.htm" />
+  <HelpKINode Title="Console enumeration member" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.LogScreen.htm" />
+  <HelpKINode Title="Console field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogScreen.Console.htm" />
+  <HelpKINode Title="Context property" Url="html/P-Cube.XRM.Framework.CubeBase.Context.htm" />
+  <HelpKINode Title="ContextWriter class">
+    <HelpKINode Title="ContextWriter Class" Url="html/T-Cube.XRM.Framework.AddOn.ContextWriter.htm" />
+    <HelpKINode Title="ContextWriter Members" Url="html/AllMembers.T-Cube.XRM.Framework.AddOn.ContextWriter.htm" />
+    <HelpKINode Title="about ContextWriter class" Url="html/T-Cube.XRM.Framework.AddOn.ContextWriter.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.AddOn.ContextWriter.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.AddOn.ContextWriter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContextWriter.Write method" Url="html/M-Cube.XRM.Framework.AddOn.ContextWriter.Write.htm" />
+  <HelpKINode Title="Create method">
+    <HelpKINode Title="Create Method " Url="html/M-Cube.XRM.Framework.Actions.Create.htm" />
+    <HelpKINode Title="Create Method " Url="html/M-Cube.XRM.Framework.CubeEntity.Create.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreatedOn property" Url="html/P-Cube.XRM.Framework.SolutionSettings.SolutionActions.CreatedOn.htm" />
+  <HelpKINode Title="CreateLog method">
+    <HelpKINode Title="CreateLog Method " Url="html/Overload-Cube.XRM.Framework.AddOn.DetailedLog.CreateLog.htm" />
+    <HelpKINode Title="CreateLog Method " Url="html/Overload-Cube.XRM.Framework.Core.DetailedLog.CreateLog.htm" />
+    <HelpKINode Title="CreateLog Method " Url="html/Overload-Cube.XRM.Framework.Interfaces.IDetailedLog.CreateLog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CRM enumeration member" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.LogLocation.htm" />
+  <HelpKINode Title="CRM field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogLocation.CRM.htm" />
+  <HelpKINode Title="cube property">
+    <HelpKINode Title="cube Property " Url="html/P-Cube.XRM.Framework.CubeEntity.cube.htm" />
+    <HelpKINode Title="cube Property " Url="html/P-Cube.XRM.Framework.Core.FrameworkInitializer.cube.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework namespace" Url="html/N-Cube.XRM.Framework.htm" />
+  <HelpKINode Title="Cube.XRM.Framework.Actions class">
+    <HelpKINode Title="Actions Class" Url="html/T-Cube.XRM.Framework.Actions.htm" />
+    <HelpKINode Title="Actions Members" Url="html/AllMembers.T-Cube.XRM.Framework.Actions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.AddOn namespace" Url="html/N-Cube.XRM.Framework.AddOn.htm" />
+  <HelpKINode Title="Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings class">
+    <HelpKINode Title="CheckAndGenerateSolutionSettings Class" Url="html/T-Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings.htm" />
+    <HelpKINode Title="CheckAndGenerateSolutionSettings Members" Url="html/AllMembers.T-Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.AddOn.ContextWriter class">
+    <HelpKINode Title="ContextWriter Class" Url="html/T-Cube.XRM.Framework.AddOn.ContextWriter.htm" />
+    <HelpKINode Title="ContextWriter Members" Url="html/AllMembers.T-Cube.XRM.Framework.AddOn.ContextWriter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.AddOn.DetailedLog class">
+    <HelpKINode Title="DetailedLog Class" Url="html/T-Cube.XRM.Framework.AddOn.DetailedLog.htm" />
+    <HelpKINode Title="DetailedLog Members" Url="html/AllMembers.T-Cube.XRM.Framework.AddOn.DetailedLog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.AddOn.PluginManager class">
+    <HelpKINode Title="PluginManager Class" Url="html/T-Cube.XRM.Framework.AddOn.PluginManager.htm" />
+    <HelpKINode Title="PluginManager Members" Url="html/AllMembers.T-Cube.XRM.Framework.AddOn.PluginManager.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.AddOn.WorkflowManager class">
+    <HelpKINode Title="WorkflowManager Class" Url="html/T-Cube.XRM.Framework.AddOn.WorkflowManager.htm" />
+    <HelpKINode Title="WorkflowManager Members" Url="html/AllMembers.T-Cube.XRM.Framework.AddOn.WorkflowManager.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.Core namespace" Url="html/N-Cube.XRM.Framework.Core.htm" />
+  <HelpKINode Title="Cube.XRM.Framework.Core.DetailedLog class">
+    <HelpKINode Title="DetailedLog Class" Url="html/T-Cube.XRM.Framework.Core.DetailedLog.htm" />
+    <HelpKINode Title="DetailedLog Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.DetailedLog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.Core.EnumCarrier class">
+    <HelpKINode Title="EnumCarrier Class" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.htm" />
+    <HelpKINode Title="EnumCarrier Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.EnumCarrier.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.Core.EnumCarrier.LogLevel enumeration" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.htm" />
+  <HelpKINode Title="Cube.XRM.Framework.Core.EnumCarrier.LogLocation enumeration" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.LogLocation.htm" />
+  <HelpKINode Title="Cube.XRM.Framework.Core.EnumCarrier.LogScreen enumeration" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.LogScreen.htm" />
+  <HelpKINode Title="Cube.XRM.Framework.Core.FrameworkInitializer class">
+    <HelpKINode Title="FrameworkInitializer Class" Url="html/T-Cube.XRM.Framework.Core.FrameworkInitializer.htm" />
+    <HelpKINode Title="FrameworkInitializer Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.FrameworkInitializer.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.Core.ISettingGroup interface">
+    <HelpKINode Title="ISettingGroup Interface" Url="html/T-Cube.XRM.Framework.Core.ISettingGroup.htm" />
+    <HelpKINode Title="ISettingGroup Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.ISettingGroup.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.Core.Loggers namespace" Url="html/N-Cube.XRM.Framework.Core.Loggers.htm" />
+  <HelpKINode Title="Cube.XRM.Framework.Core.Loggers.ILogger interface">
+    <HelpKINode Title="ILogger Interface" Url="html/T-Cube.XRM.Framework.Core.Loggers.ILogger.htm" />
+    <HelpKINode Title="ILogger Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.Loggers.ILogger.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.Core.Service class">
+    <HelpKINode Title="Service Class" Url="html/T-Cube.XRM.Framework.Core.Service.htm" />
+    <HelpKINode Title="Service Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.Service.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.Core.SettingGroup class">
+    <HelpKINode Title="SettingGroup Class" Url="html/T-Cube.XRM.Framework.Core.SettingGroup.htm" />
+    <HelpKINode Title="SettingGroup Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.SettingGroup.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.Core.Settings namespace" Url="html/N-Cube.XRM.Framework.Core.Settings.htm" />
+  <HelpKINode Title="Cube.XRM.Framework.Core.Settings.ISettingReader interface">
+    <HelpKINode Title="ISettingReader Interface" Url="html/T-Cube.XRM.Framework.Core.Settings.ISettingReader.htm" />
+    <HelpKINode Title="ISettingReader Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.Settings.ISettingReader.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.Core.Settings.XMLSettingReader class">
+    <HelpKINode Title="XMLSettingReader Class" Url="html/T-Cube.XRM.Framework.Core.Settings.XMLSettingReader.htm" />
+    <HelpKINode Title="XMLSettingReader Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.Settings.XMLSettingReader.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.CubeBase class">
+    <HelpKINode Title="CubeBase Class" Url="html/T-Cube.XRM.Framework.CubeBase.htm" />
+    <HelpKINode Title="CubeBase Members" Url="html/AllMembers.T-Cube.XRM.Framework.CubeBase.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.CubeEntity class">
+    <HelpKINode Title="CubeEntity Class" Url="html/T-Cube.XRM.Framework.CubeEntity.htm" />
+    <HelpKINode Title="CubeEntity Members" Url="html/AllMembers.T-Cube.XRM.Framework.CubeEntity.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.CubeEntityExtension class">
+    <HelpKINode Title="CubeEntityExtension Class" Url="html/T-Cube.XRM.Framework.CubeEntityExtension.htm" />
+    <HelpKINode Title="CubeEntityExtension Members" Url="html/AllMembers.T-Cube.XRM.Framework.CubeEntityExtension.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.CubeProperty class">
+    <HelpKINode Title="CubeProperty Class" Url="html/T-Cube.XRM.Framework.CubeProperty.htm" />
+    <HelpKINode Title="CubeProperty Members" Url="html/AllMembers.T-Cube.XRM.Framework.CubeProperty.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.ExceptionHandler class">
+    <HelpKINode Title="ExceptionHandler Class" Url="html/T-Cube.XRM.Framework.ExceptionHandler.htm" />
+    <HelpKINode Title="ExceptionHandler Members" Url="html/AllMembers.T-Cube.XRM.Framework.ExceptionHandler.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.Interfaces namespace" Url="html/N-Cube.XRM.Framework.Interfaces.htm" />
+  <HelpKINode Title="Cube.XRM.Framework.Interfaces.IDetailedLog interface">
+    <HelpKINode Title="IDetailedLog Interface" Url="html/T-Cube.XRM.Framework.Interfaces.IDetailedLog.htm" />
+    <HelpKINode Title="IDetailedLog Members" Url="html/AllMembers.T-Cube.XRM.Framework.Interfaces.IDetailedLog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.Interfaces.ISetting interface">
+    <HelpKINode Title="ISetting Interface" Url="html/T-Cube.XRM.Framework.Interfaces.ISetting.htm" />
+    <HelpKINode Title="ISetting Members" Url="html/AllMembers.T-Cube.XRM.Framework.Interfaces.ISetting.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.MetadataActions class">
+    <HelpKINode Title="MetadataActions Class" Url="html/T-Cube.XRM.Framework.MetadataActions.htm" />
+    <HelpKINode Title="MetadataActions Members" Url="html/AllMembers.T-Cube.XRM.Framework.MetadataActions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.ObjectCarrier class">
+    <HelpKINode Title="ObjectCarrier Class" Url="html/T-Cube.XRM.Framework.ObjectCarrier.htm" />
+    <HelpKINode Title="ObjectCarrier Members" Url="html/AllMembers.T-Cube.XRM.Framework.ObjectCarrier.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.QueryActions class">
+    <HelpKINode Title="QueryActions Class" Url="html/T-Cube.XRM.Framework.QueryActions.htm" />
+    <HelpKINode Title="QueryActions Members" Url="html/AllMembers.T-Cube.XRM.Framework.QueryActions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.Result class">
+    <HelpKINode Title="Result Class" Url="html/T-Cube.XRM.Framework.Result.htm" />
+    <HelpKINode Title="Result Members" Url="html/AllMembers.T-Cube.XRM.Framework.Result.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.Serializers namespace" Url="html/N-Cube.XRM.Framework.Serializers.htm" />
+  <HelpKINode Title="Cube.XRM.Framework.Serializers.SerializeHelper class">
+    <HelpKINode Title="SerializeHelper Class" Url="html/T-Cube.XRM.Framework.Serializers.SerializeHelper.htm" />
+    <HelpKINode Title="SerializeHelper Members" Url="html/AllMembers.T-Cube.XRM.Framework.Serializers.SerializeHelper.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.Setting class">
+    <HelpKINode Title="Setting Class" Url="html/T-Cube.XRM.Framework.Setting.htm" />
+    <HelpKINode Title="Setting Members" Url="html/AllMembers.T-Cube.XRM.Framework.Setting.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.SolutionSettings namespace" Url="html/N-Cube.XRM.Framework.SolutionSettings.htm" />
+  <HelpKINode Title="Cube.XRM.Framework.SolutionSettings.SolutionActions class">
+    <HelpKINode Title="SolutionActions Class" Url="html/T-Cube.XRM.Framework.SolutionSettings.SolutionActions.htm" />
+    <HelpKINode Title="SolutionActions Members" Url="html/AllMembers.T-Cube.XRM.Framework.SolutionSettings.SolutionActions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cube.XRM.Framework.SolutionSettings.SolutionSettingActions class">
+    <HelpKINode Title="SolutionSettingActions Class" Url="html/T-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.htm" />
+    <HelpKINode Title="SolutionSettingActions Members" Url="html/AllMembers.T-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CubeBase class">
+    <HelpKINode Title="CubeBase Class" Url="html/T-Cube.XRM.Framework.CubeBase.htm" />
+    <HelpKINode Title="CubeBase Members" Url="html/AllMembers.T-Cube.XRM.Framework.CubeBase.htm" />
+    <HelpKINode Title="about CubeBase class" Url="html/T-Cube.XRM.Framework.CubeBase.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.CubeBase.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.CubeBase.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Cube.XRM.Framework.CubeBase.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CubeBase.BaseSystemObject property" Url="html/P-Cube.XRM.Framework.CubeBase.BaseSystemObject.htm" />
+  <HelpKINode Title="CubeBase.Context property" Url="html/P-Cube.XRM.Framework.CubeBase.Context.htm" />
+  <HelpKINode Title="CubeBase.LogSystem property" Url="html/P-Cube.XRM.Framework.CubeBase.LogSystem.htm" />
+  <HelpKINode Title="CubeBase.MetadataRetrieveActions property" Url="html/P-Cube.XRM.Framework.CubeBase.MetadataRetrieveActions.htm" />
+  <HelpKINode Title="CubeBase.RetrieveActions property" Url="html/P-Cube.XRM.Framework.CubeBase.RetrieveActions.htm" />
+  <HelpKINode Title="CubeBase.XRMActions property" Url="html/P-Cube.XRM.Framework.CubeBase.XRMActions.htm" />
+  <HelpKINode Title="CubeBase.XrmService property" Url="html/P-Cube.XRM.Framework.CubeBase.XrmService.htm" />
+  <HelpKINode Title="CubeEntity class">
+    <HelpKINode Title="CubeEntity Class" Url="html/T-Cube.XRM.Framework.CubeEntity.htm" />
+    <HelpKINode Title="CubeEntity Members" Url="html/AllMembers.T-Cube.XRM.Framework.CubeEntity.htm" />
+    <HelpKINode Title="about CubeEntity class" Url="html/T-Cube.XRM.Framework.CubeEntity.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.CubeEntity.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-Cube.XRM.Framework.CubeEntity.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.CubeEntity.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Cube.XRM.Framework.CubeEntity.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CubeEntity.Create method" Url="html/M-Cube.XRM.Framework.CubeEntity.Create.htm" />
+  <HelpKINode Title="CubeEntity.cube property" Url="html/P-Cube.XRM.Framework.CubeEntity.cube.htm" />
+  <HelpKINode Title="CubeEntity.CubeEntity constructor" Url="html/Overload-Cube.XRM.Framework.CubeEntity.-ctor.htm" />
+  <HelpKINode Title="CubeEntity.Delete method" Url="html/M-Cube.XRM.Framework.CubeEntity.Delete.htm" />
+  <HelpKINode Title="CubeEntity.EntityName property" Url="html/P-Cube.XRM.Framework.CubeEntity.EntityName.htm" />
+  <HelpKINode Title="CubeEntity.ErrorCode property" Url="html/P-Cube.XRM.Framework.CubeEntity.ErrorCode.htm" />
+  <HelpKINode Title="CubeEntity.ErrorDetail property" Url="html/P-Cube.XRM.Framework.CubeEntity.ErrorDetail.htm" />
+  <HelpKINode Title="CubeEntity.ID property" Url="html/P-Cube.XRM.Framework.CubeEntity.ID.htm" />
+  <HelpKINode Title="CubeEntity.Item property" Url="html/P-Cube.XRM.Framework.CubeEntity.Item-System.String-.htm" />
+  <HelpKINode Title="CubeEntity.ParseEntities method" Url="html/M-Cube.XRM.Framework.CubeEntity.ParseEntities.htm" />
+  <HelpKINode Title="CubeEntity.ParseItem method" Url="html/M-Cube.XRM.Framework.CubeEntity.ParseItem.htm" />
+  <HelpKINode Title="CubeEntity.PrepareEntity method" Url="html/M-Cube.XRM.Framework.CubeEntity.PrepareEntity.htm" />
+  <HelpKINode Title="CubeEntity.ToString method" Url="html/M-Cube.XRM.Framework.CubeEntity.ToString.htm" />
+  <HelpKINode Title="CubeEntity.Update method" Url="html/M-Cube.XRM.Framework.CubeEntity.Update.htm" />
+  <HelpKINode Title="CubeEntityExtension class">
+    <HelpKINode Title="CubeEntityExtension Class" Url="html/T-Cube.XRM.Framework.CubeEntityExtension.htm" />
+    <HelpKINode Title="CubeEntityExtension Members" Url="html/AllMembers.T-Cube.XRM.Framework.CubeEntityExtension.htm" />
+    <HelpKINode Title="about CubeEntityExtension class" Url="html/T-Cube.XRM.Framework.CubeEntityExtension.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.CubeEntityExtension.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.CubeEntityExtension.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CubeEntityExtension.Clone method" Url="html/M-Cube.XRM.Framework.CubeEntityExtension.Clone.htm" />
+  <HelpKINode Title="CubeEntityExtension.Merge method" Url="html/M-Cube.XRM.Framework.CubeEntityExtension.Merge.htm" />
+  <HelpKINode Title="CubeProperty class">
+    <HelpKINode Title="CubeProperty Class" Url="html/T-Cube.XRM.Framework.CubeProperty.htm" />
+    <HelpKINode Title="CubeProperty Members" Url="html/AllMembers.T-Cube.XRM.Framework.CubeProperty.htm" />
+    <HelpKINode Title="about CubeProperty class" Url="html/T-Cube.XRM.Framework.CubeProperty.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.CubeProperty.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-Cube.XRM.Framework.CubeProperty.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.CubeProperty.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Cube.XRM.Framework.CubeProperty.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CubeProperty.CubeProperty constructor" Url="html/Overload-Cube.XRM.Framework.CubeProperty.-ctor.htm" />
+  <HelpKINode Title="CubeProperty.ExtensionData property" Url="html/P-Cube.XRM.Framework.CubeProperty.ExtensionData.htm" />
+  <HelpKINode Title="CubeProperty.IsSet property" Url="html/P-Cube.XRM.Framework.CubeProperty.IsSet.htm" />
+  <HelpKINode Title="CubeProperty.LogicalName property" Url="html/P-Cube.XRM.Framework.CubeProperty.LogicalName.htm" />
+  <HelpKINode Title="CubeProperty.Name property" Url="html/P-Cube.XRM.Framework.CubeProperty.Name.htm" />
+  <HelpKINode Title="CubeProperty.ValueObject property" Url="html/P-Cube.XRM.Framework.CubeProperty.ValueObject.htm" />
+  <HelpKINode Title="CubeProperty.ValueString property" Url="html/P-Cube.XRM.Framework.CubeProperty.ValueString.htm" />
+  <HelpKINode Title="Delete method">
+    <HelpKINode Title="Delete Method " Url="html/M-Cube.XRM.Framework.Actions.Delete.htm" />
+    <HelpKINode Title="Delete Method " Url="html/M-Cube.XRM.Framework.CubeEntity.Delete.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DetailedException property" Url="html/P-Cube.XRM.Framework.AddOn.WorkflowManager.DetailedException.htm" />
+  <HelpKINode Title="DetailedLog class">
+    <HelpKINode Title="DetailedLog Class" Url="html/T-Cube.XRM.Framework.Core.DetailedLog.htm" />
+    <HelpKINode Title="DetailedLog Class" Url="html/T-Cube.XRM.Framework.AddOn.DetailedLog.htm" />
+    <HelpKINode Title="DetailedLog Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.DetailedLog.htm" />
+    <HelpKINode Title="DetailedLog Members" Url="html/AllMembers.T-Cube.XRM.Framework.AddOn.DetailedLog.htm" />
+    <HelpKINode Title="about DetailedLog class" Url="html/T-Cube.XRM.Framework.AddOn.DetailedLog.htm" />
+    <HelpKINode Title="about DetailedLog class" Url="html/T-Cube.XRM.Framework.Core.DetailedLog.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.DetailedLog.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.AddOn.DetailedLog.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-Cube.XRM.Framework.Core.DetailedLog.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.AddOn.DetailedLog.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.Core.DetailedLog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Cube.XRM.Framework.AddOn.DetailedLog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DetailedLog.CreateLog method">
+    <HelpKINode Title="CreateLog Method " Url="html/Overload-Cube.XRM.Framework.AddOn.DetailedLog.CreateLog.htm" />
+    <HelpKINode Title="CreateLog Method " Url="html/Overload-Cube.XRM.Framework.Core.DetailedLog.CreateLog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DetailedLog.DetailedLog constructor" Url="html/Overload-Cube.XRM.Framework.Core.DetailedLog.-ctor.htm" />
+  <HelpKINode Title="DetailedLog.LogEntityObjects method">
+    <HelpKINode Title="LogEntityObjects Method " Url="html/M-Cube.XRM.Framework.AddOn.DetailedLog.LogEntityObjects.htm" />
+    <HelpKINode Title="LogEntityObjects Method " Url="html/M-Cube.XRM.Framework.Core.DetailedLog.LogEntityObjects.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DetailedLog.TraceService property" Url="html/P-Cube.XRM.Framework.AddOn.DetailedLog.TraceService.htm" />
+  <HelpKINode Title="Diagnostic enumeration member" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.LogScreen.htm" />
+  <HelpKINode Title="Diagnostic field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogScreen.Diagnostic.htm" />
+  <HelpKINode Title="Disassociate method" Url="html/M-Cube.XRM.Framework.Actions.Disassociate.htm" />
+  <HelpKINode Title="EntityName property" Url="html/P-Cube.XRM.Framework.CubeEntity.EntityName.htm" />
+  <HelpKINode Title="EnumCarrier class">
+    <HelpKINode Title="EnumCarrier Class" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.htm" />
+    <HelpKINode Title="EnumCarrier Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.EnumCarrier.htm" />
+    <HelpKINode Title="about EnumCarrier class" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.EnumCarrier.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.Core.EnumCarrier.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnumCarrier.LogLevel enumeration" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.htm" />
+  <HelpKINode Title="EnumCarrier.LogLocation enumeration" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.LogLocation.htm" />
+  <HelpKINode Title="EnumCarrier.LogScreen enumeration" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.LogScreen.htm" />
+  <HelpKINode Title="Error enumeration member" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.htm" />
+  <HelpKINode Title="Error field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.Error.htm" />
+  <HelpKINode Title="ErrorCode property" Url="html/P-Cube.XRM.Framework.CubeEntity.ErrorCode.htm" />
+  <HelpKINode Title="ErrorDetail property" Url="html/P-Cube.XRM.Framework.CubeEntity.ErrorDetail.htm" />
+  <HelpKINode Title="ExceptionHandler class">
+    <HelpKINode Title="ExceptionHandler Class" Url="html/T-Cube.XRM.Framework.ExceptionHandler.htm" />
+    <HelpKINode Title="ExceptionHandler Members" Url="html/AllMembers.T-Cube.XRM.Framework.ExceptionHandler.htm" />
+    <HelpKINode Title="about ExceptionHandler class" Url="html/T-Cube.XRM.Framework.ExceptionHandler.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.ExceptionHandler.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.ExceptionHandler.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExceptionHandler.HandleException method" Url="html/M-Cube.XRM.Framework.ExceptionHandler.HandleException.htm" />
+  <HelpKINode Title="ExceptionMessage property" Url="html/P-Cube.XRM.Framework.AddOn.WorkflowManager.ExceptionMessage.htm" />
+  <HelpKINode Title="Execute method" Url="html/M-Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings.Execute.htm" />
+  <HelpKINode Title="Execute(Of T, V) method" Url="html/M-Cube.XRM.Framework.Actions.Execute--2.htm" />
+  <HelpKINode Title="Execute&lt;T, V&gt; method" Url="html/M-Cube.XRM.Framework.Actions.Execute--2.htm" />
+  <HelpKINode Title="ExtensionData property" Url="html/P-Cube.XRM.Framework.CubeProperty.ExtensionData.htm" />
+  <HelpKINode Title="FailureAudit enumeration member" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.htm" />
+  <HelpKINode Title="FailureAudit field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.FailureAudit.htm" />
+  <HelpKINode Title="FrameworkInitializer class">
+    <HelpKINode Title="FrameworkInitializer Class" Url="html/T-Cube.XRM.Framework.Core.FrameworkInitializer.htm" />
+    <HelpKINode Title="FrameworkInitializer Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.FrameworkInitializer.htm" />
+    <HelpKINode Title="about FrameworkInitializer class" Url="html/T-Cube.XRM.Framework.Core.FrameworkInitializer.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.FrameworkInitializer.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-Cube.XRM.Framework.Core.FrameworkInitializer.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.Core.FrameworkInitializer.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Cube.XRM.Framework.Core.FrameworkInitializer.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FrameworkInitializer.cube property" Url="html/P-Cube.XRM.Framework.Core.FrameworkInitializer.cube.htm" />
+  <HelpKINode Title="FrameworkInitializer.FrameworkInitializer constructor" Url="html/Overload-Cube.XRM.Framework.Core.FrameworkInitializer.-ctor.htm" />
+  <HelpKINode Title="GetAllValues method" Url="html/M-Cube.XRM.Framework.ObjectCarrier.GetAllValues.htm" />
+  <HelpKINode Title="GetAsLookup method" Url="html/M-Cube.XRM.Framework.QueryActions.GetAsLookup.htm" />
+  <HelpKINode Title="GetCodeActivityParameter(Of T) method" Url="html/M-Cube.XRM.Framework.AddOn.WorkflowManager.GetCodeActivityParameter--1.htm" />
+  <HelpKINode Title="GetCodeActivityParameter&lt;T&gt; method" Url="html/M-Cube.XRM.Framework.AddOn.WorkflowManager.GetCodeActivityParameter--1.htm" />
+  <HelpKINode Title="GetEntityDetials method" Url="html/M-Cube.XRM.Framework.MetadataActions.GetEntityDetials.htm" />
+  <HelpKINode Title="GetItem method" Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionActions.GetItem.htm" />
+  <HelpKINode Title="getItemFetch method" Url="html/M-Cube.XRM.Framework.QueryActions.getItemFetch.htm" />
+  <HelpKINode Title="getItemRetrieve method" Url="html/M-Cube.XRM.Framework.QueryActions.getItemRetrieve.htm" />
+  <HelpKINode Title="GetItems method" Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.GetItems.htm" />
+  <HelpKINode Title="getItemsFetch method" Url="html/M-Cube.XRM.Framework.QueryActions.getItemsFetch.htm" />
+  <HelpKINode Title="getItemsFromRollupQuery method" Url="html/M-Cube.XRM.Framework.QueryActions.getItemsFromRollupQuery.htm" />
+  <HelpKINode Title="GetLicenseItem method" Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.GetLicenseItem.htm" />
+  <HelpKINode Title="GetOptionSets method" Url="html/M-Cube.XRM.Framework.MetadataActions.GetOptionSets.htm" />
+  <HelpKINode Title="GetOptionSetText method" Url="html/M-Cube.XRM.Framework.MetadataActions.GetOptionSetText.htm" />
+  <HelpKINode Title="GetService method" Url="html/Overload-Cube.XRM.Framework.Core.Service.GetService.htm" />
+  <HelpKINode Title="GetValue(Of T) method" Url="html/M-Cube.XRM.Framework.ObjectCarrier.GetValue--1.htm" />
+  <HelpKINode Title="GetValue&lt;T&gt; method" Url="html/M-Cube.XRM.Framework.ObjectCarrier.GetValue--1.htm" />
+  <HelpKINode Title="GroupName property">
+    <HelpKINode Title="GroupName Property " Url="html/P-Cube.XRM.Framework.Core.SettingGroup.GroupName.htm" />
+    <HelpKINode Title="GroupName Property " Url="html/P-Cube.XRM.Framework.Core.ISettingGroup.GroupName.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HandleException method" Url="html/M-Cube.XRM.Framework.ExceptionHandler.HandleException.htm" />
+  <HelpKINode Title="HasValue method" Url="html/M-Cube.XRM.Framework.ObjectCarrier.HasValue.htm" />
+  <HelpKINode Title="ID property" Url="html/P-Cube.XRM.Framework.CubeEntity.ID.htm" />
+  <HelpKINode Title="Identifier property" Url="html/P-Cube.XRM.Framework.SolutionSettings.SolutionActions.Identifier.htm" />
+  <HelpKINode Title="IDetailedLog interface">
+    <HelpKINode Title="IDetailedLog Interface" Url="html/T-Cube.XRM.Framework.Interfaces.IDetailedLog.htm" />
+    <HelpKINode Title="IDetailedLog Members" Url="html/AllMembers.T-Cube.XRM.Framework.Interfaces.IDetailedLog.htm" />
+    <HelpKINode Title="about IDetailedLog interface" Url="html/T-Cube.XRM.Framework.Interfaces.IDetailedLog.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.Interfaces.IDetailedLog.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.Interfaces.IDetailedLog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IDetailedLog.CreateLog method" Url="html/Overload-Cube.XRM.Framework.Interfaces.IDetailedLog.CreateLog.htm" />
+  <HelpKINode Title="IDetailedLog.LogEntityObjects method" Url="html/M-Cube.XRM.Framework.Interfaces.IDetailedLog.LogEntityObjects.htm" />
+  <HelpKINode Title="ILogger interface">
+    <HelpKINode Title="ILogger Interface" Url="html/T-Cube.XRM.Framework.Core.Loggers.ILogger.htm" />
+    <HelpKINode Title="ILogger Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.Loggers.ILogger.htm" />
+    <HelpKINode Title="about ILogger interface" Url="html/T-Cube.XRM.Framework.Core.Loggers.ILogger.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.Loggers.ILogger.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.Core.Loggers.ILogger.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ILogger.Save method" Url="html/M-Cube.XRM.Framework.Core.Loggers.ILogger.Save.htm" />
+  <HelpKINode Title="Information enumeration member" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.htm" />
+  <HelpKINode Title="Information field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.Information.htm" />
+  <HelpKINode Title="isError property" Url="html/P-Cube.XRM.Framework.Result.isError.htm" />
+  <HelpKINode Title="ISetting interface">
+    <HelpKINode Title="ISetting Interface" Url="html/T-Cube.XRM.Framework.Interfaces.ISetting.htm" />
+    <HelpKINode Title="ISetting Members" Url="html/AllMembers.T-Cube.XRM.Framework.Interfaces.ISetting.htm" />
+    <HelpKINode Title="about ISetting interface" Url="html/T-Cube.XRM.Framework.Interfaces.ISetting.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.Interfaces.ISetting.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.Interfaces.ISetting.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Cube.XRM.Framework.Interfaces.ISetting.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ISetting.Key property" Url="html/P-Cube.XRM.Framework.Interfaces.ISetting.Key.htm" />
+  <HelpKINode Title="ISetting.Value property" Url="html/P-Cube.XRM.Framework.Interfaces.ISetting.Value.htm" />
+  <HelpKINode Title="ISettingGroup interface">
+    <HelpKINode Title="ISettingGroup Interface" Url="html/T-Cube.XRM.Framework.Core.ISettingGroup.htm" />
+    <HelpKINode Title="ISettingGroup Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.ISettingGroup.htm" />
+    <HelpKINode Title="about ISettingGroup interface" Url="html/T-Cube.XRM.Framework.Core.ISettingGroup.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.ISettingGroup.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.Core.ISettingGroup.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Cube.XRM.Framework.Core.ISettingGroup.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ISettingGroup.GroupName property" Url="html/P-Cube.XRM.Framework.Core.ISettingGroup.GroupName.htm" />
+  <HelpKINode Title="ISettingGroup.Settings property" Url="html/P-Cube.XRM.Framework.Core.ISettingGroup.Settings.htm" />
+  <HelpKINode Title="ISettingReader interface">
+    <HelpKINode Title="ISettingReader Interface" Url="html/T-Cube.XRM.Framework.Core.Settings.ISettingReader.htm" />
+    <HelpKINode Title="ISettingReader Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.Settings.ISettingReader.htm" />
+    <HelpKINode Title="about ISettingReader interface" Url="html/T-Cube.XRM.Framework.Core.Settings.ISettingReader.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.Settings.ISettingReader.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.Core.Settings.ISettingReader.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ISettingReader.Read method" Url="html/Overload-Cube.XRM.Framework.Core.Settings.ISettingReader.Read.htm" />
+  <HelpKINode Title="IsExceptionOccured property" Url="html/P-Cube.XRM.Framework.AddOn.WorkflowManager.IsExceptionOccured.htm" />
+  <HelpKINode Title="IsSet property" Url="html/P-Cube.XRM.Framework.CubeProperty.IsSet.htm" />
+  <HelpKINode Title="Item property" Url="html/P-Cube.XRM.Framework.CubeEntity.Item-System.String-.htm" />
+  <HelpKINode Title="Key property">
+    <HelpKINode Title="Key Property " Url="html/P-Cube.XRM.Framework.Interfaces.ISetting.Key.htm" />
+    <HelpKINode Title="Key Property " Url="html/P-Cube.XRM.Framework.Setting.Key.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LogEntityObjects method">
+    <HelpKINode Title="LogEntityObjects Method " Url="html/M-Cube.XRM.Framework.AddOn.DetailedLog.LogEntityObjects.htm" />
+    <HelpKINode Title="LogEntityObjects Method " Url="html/M-Cube.XRM.Framework.Core.DetailedLog.LogEntityObjects.htm" />
+    <HelpKINode Title="LogEntityObjects Method " Url="html/M-Cube.XRM.Framework.Interfaces.IDetailedLog.LogEntityObjects.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LogicalName property" Url="html/P-Cube.XRM.Framework.CubeProperty.LogicalName.htm" />
+  <HelpKINode Title="LogLevel.All field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.All.htm" />
+  <HelpKINode Title="LogLevel.Error field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.Error.htm" />
+  <HelpKINode Title="LogLevel.FailureAudit field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.FailureAudit.htm" />
+  <HelpKINode Title="LogLevel.Information field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.Information.htm" />
+  <HelpKINode Title="LogLevel.None field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.None.htm" />
+  <HelpKINode Title="LogLevel.SuccessAudit field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.SuccessAudit.htm" />
+  <HelpKINode Title="LogLevel.Warning field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.Warning.htm" />
+  <HelpKINode Title="LogLocation.CRM field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogLocation.CRM.htm" />
+  <HelpKINode Title="LogLocation.None field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogLocation.None.htm" />
+  <HelpKINode Title="LogLocation.SQL field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogLocation.SQL.htm" />
+  <HelpKINode Title="LogLocation.Text field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogLocation.Text.htm" />
+  <HelpKINode Title="LogScreen.All field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogScreen.All.htm" />
+  <HelpKINode Title="LogScreen.Console field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogScreen.Console.htm" />
+  <HelpKINode Title="LogScreen.Diagnostic field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogScreen.Diagnostic.htm" />
+  <HelpKINode Title="LogScreen.None field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogScreen.None.htm" />
+  <HelpKINode Title="LogSystem property" Url="html/P-Cube.XRM.Framework.CubeBase.LogSystem.htm" />
+  <HelpKINode Title="Merge method" Url="html/M-Cube.XRM.Framework.CubeEntityExtension.Merge.htm" />
+  <HelpKINode Title="Message property" Url="html/P-Cube.XRM.Framework.Result.Message.htm" />
+  <HelpKINode Title="MetadataActions class">
+    <HelpKINode Title="MetadataActions Class" Url="html/T-Cube.XRM.Framework.MetadataActions.htm" />
+    <HelpKINode Title="MetadataActions Members" Url="html/AllMembers.T-Cube.XRM.Framework.MetadataActions.htm" />
+    <HelpKINode Title="about MetadataActions class" Url="html/T-Cube.XRM.Framework.MetadataActions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.MetadataActions.htm" />
+    <HelpKINode Title="constructor" Url="html/M-Cube.XRM.Framework.MetadataActions.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.MetadataActions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MetadataActions.GetEntityDetials method" Url="html/M-Cube.XRM.Framework.MetadataActions.GetEntityDetials.htm" />
+  <HelpKINode Title="MetadataActions.GetOptionSets method" Url="html/M-Cube.XRM.Framework.MetadataActions.GetOptionSets.htm" />
+  <HelpKINode Title="MetadataActions.GetOptionSetText method" Url="html/M-Cube.XRM.Framework.MetadataActions.GetOptionSetText.htm" />
+  <HelpKINode Title="MetadataActions.MetadataActions constructor" Url="html/M-Cube.XRM.Framework.MetadataActions.-ctor.htm" />
+  <HelpKINode Title="MetadataRetrieveActions property" Url="html/P-Cube.XRM.Framework.CubeBase.MetadataRetrieveActions.htm" />
+  <HelpKINode Title="Name property">
+    <HelpKINode Title="Name Property " Url="html/P-Cube.XRM.Framework.CubeProperty.Name.htm" />
+    <HelpKINode Title="Name Property " Url="html/P-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.Name.htm" />
+    <HelpKINode Title="Name Property " Url="html/P-Cube.XRM.Framework.SolutionSettings.SolutionActions.Name.htm" />
+  </HelpKINode>
+  <HelpKINode Title="None enumeration member">
+    <HelpKINode Title="EnumCarrier.LogLevel Enumeration" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.htm" />
+    <HelpKINode Title="EnumCarrier.LogLocation Enumeration" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.LogLocation.htm" />
+    <HelpKINode Title="EnumCarrier.LogScreen Enumeration" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.LogScreen.htm" />
+  </HelpKINode>
+  <HelpKINode Title="None field">
+    <HelpKINode Title="None Field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogScreen.None.htm" />
+    <HelpKINode Title="None Field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogLocation.None.htm" />
+    <HelpKINode Title="None Field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.None.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ObjectCarrier class">
+    <HelpKINode Title="ObjectCarrier Class" Url="html/T-Cube.XRM.Framework.ObjectCarrier.htm" />
+    <HelpKINode Title="ObjectCarrier Members" Url="html/AllMembers.T-Cube.XRM.Framework.ObjectCarrier.htm" />
+    <HelpKINode Title="about ObjectCarrier class" Url="html/T-Cube.XRM.Framework.ObjectCarrier.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.ObjectCarrier.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.ObjectCarrier.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ObjectCarrier.GetAllValues method" Url="html/M-Cube.XRM.Framework.ObjectCarrier.GetAllValues.htm" />
+  <HelpKINode Title="ObjectCarrier.GetValue(Of T) method" Url="html/M-Cube.XRM.Framework.ObjectCarrier.GetValue--1.htm" />
+  <HelpKINode Title="ObjectCarrier.GetValue&lt;T&gt; method" Url="html/M-Cube.XRM.Framework.ObjectCarrier.GetValue--1.htm" />
+  <HelpKINode Title="ObjectCarrier.HasValue method" Url="html/M-Cube.XRM.Framework.ObjectCarrier.HasValue.htm" />
+  <HelpKINode Title="ObjectCarrier.SetValue method" Url="html/M-Cube.XRM.Framework.ObjectCarrier.SetValue.htm" />
+  <HelpKINode Title="ParseEntities method" Url="html/M-Cube.XRM.Framework.CubeEntity.ParseEntities.htm" />
+  <HelpKINode Title="ParseItem method">
+    <HelpKINode Title="ParseItem Method " Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.ParseItem.htm" />
+    <HelpKINode Title="ParseItem Method " Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionActions.ParseItem.htm" />
+    <HelpKINode Title="ParseItem Method " Url="html/M-Cube.XRM.Framework.CubeEntity.ParseItem.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ParseURL method" Url="html/M-Cube.XRM.Framework.AddOn.WorkflowManager.ParseURL.htm" />
+  <HelpKINode Title="PluginManager class">
+    <HelpKINode Title="PluginManager Class" Url="html/T-Cube.XRM.Framework.AddOn.PluginManager.htm" />
+    <HelpKINode Title="PluginManager Members" Url="html/AllMembers.T-Cube.XRM.Framework.AddOn.PluginManager.htm" />
+    <HelpKINode Title="about PluginManager class" Url="html/T-Cube.XRM.Framework.AddOn.PluginManager.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.AddOn.PluginManager.htm" />
+    <HelpKINode Title="constructor" Url="html/M-Cube.XRM.Framework.AddOn.PluginManager.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-Cube.XRM.Framework.AddOn.PluginManager.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.AddOn.PluginManager.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Cube.XRM.Framework.AddOn.PluginManager.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PluginManager.PluginManager constructor" Url="html/M-Cube.XRM.Framework.AddOn.PluginManager.-ctor.htm" />
+  <HelpKINode Title="PluginManager.PostImage property" Url="html/P-Cube.XRM.Framework.AddOn.PluginManager.PostImage.htm" />
+  <HelpKINode Title="PluginManager.PreImage property" Url="html/P-Cube.XRM.Framework.AddOn.PluginManager.PreImage.htm" />
+  <HelpKINode Title="PluginManager.SecureString field" Url="html/F-Cube.XRM.Framework.AddOn.PluginManager.SecureString.htm" />
+  <HelpKINode Title="PluginManager.TargetEntity property" Url="html/P-Cube.XRM.Framework.AddOn.PluginManager.TargetEntity.htm" />
+  <HelpKINode Title="PluginManager.UnSecureString field" Url="html/F-Cube.XRM.Framework.AddOn.PluginManager.UnSecureString.htm" />
+  <HelpKINode Title="PostImage property" Url="html/P-Cube.XRM.Framework.AddOn.PluginManager.PostImage.htm" />
+  <HelpKINode Title="PreImage property" Url="html/P-Cube.XRM.Framework.AddOn.PluginManager.PreImage.htm" />
+  <HelpKINode Title="PrepareEntity method">
+    <HelpKINode Title="PrepareEntity Method " Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.PrepareEntity.htm" />
+    <HelpKINode Title="PrepareEntity Method " Url="html/M-Cube.XRM.Framework.CubeEntity.PrepareEntity.htm" />
+    <HelpKINode Title="PrepareEntity Method " Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionActions.PrepareEntity.htm" />
+  </HelpKINode>
+  <HelpKINode Title="QueryActions class">
+    <HelpKINode Title="QueryActions Class" Url="html/T-Cube.XRM.Framework.QueryActions.htm" />
+    <HelpKINode Title="QueryActions Members" Url="html/AllMembers.T-Cube.XRM.Framework.QueryActions.htm" />
+    <HelpKINode Title="about QueryActions class" Url="html/T-Cube.XRM.Framework.QueryActions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.QueryActions.htm" />
+    <HelpKINode Title="constructor" Url="html/M-Cube.XRM.Framework.QueryActions.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.QueryActions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="QueryActions.GetAsLookup method" Url="html/M-Cube.XRM.Framework.QueryActions.GetAsLookup.htm" />
+  <HelpKINode Title="QueryActions.getItemFetch method" Url="html/M-Cube.XRM.Framework.QueryActions.getItemFetch.htm" />
+  <HelpKINode Title="QueryActions.getItemRetrieve method" Url="html/M-Cube.XRM.Framework.QueryActions.getItemRetrieve.htm" />
+  <HelpKINode Title="QueryActions.getItemsFetch method" Url="html/M-Cube.XRM.Framework.QueryActions.getItemsFetch.htm" />
+  <HelpKINode Title="QueryActions.getItemsFromRollupQuery method" Url="html/M-Cube.XRM.Framework.QueryActions.getItemsFromRollupQuery.htm" />
+  <HelpKINode Title="QueryActions.QueryActions constructor" Url="html/M-Cube.XRM.Framework.QueryActions.-ctor.htm" />
+  <HelpKINode Title="Read method">
+    <HelpKINode Title="Read Method " Url="html/Overload-Cube.XRM.Framework.Core.Settings.ISettingReader.Read.htm" />
+    <HelpKINode Title="Read Method " Url="html/Overload-Cube.XRM.Framework.Core.Settings.XMLSettingReader.Read.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Response property" Url="html/P-Cube.XRM.Framework.Result.Response.htm" />
+  <HelpKINode Title="Result class">
+    <HelpKINode Title="Result Class" Url="html/T-Cube.XRM.Framework.Result.htm" />
+    <HelpKINode Title="Result Members" Url="html/AllMembers.T-Cube.XRM.Framework.Result.htm" />
+    <HelpKINode Title="about Result class" Url="html/T-Cube.XRM.Framework.Result.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.Result.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-Cube.XRM.Framework.Result.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.Result.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Cube.XRM.Framework.Result.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Result.BusinessObject property" Url="html/P-Cube.XRM.Framework.Result.BusinessObject.htm" />
+  <HelpKINode Title="Result.BusinessObjectArray property" Url="html/P-Cube.XRM.Framework.Result.BusinessObjectArray.htm" />
+  <HelpKINode Title="Result.isError property" Url="html/P-Cube.XRM.Framework.Result.isError.htm" />
+  <HelpKINode Title="Result.Message property" Url="html/P-Cube.XRM.Framework.Result.Message.htm" />
+  <HelpKINode Title="Result.Response property" Url="html/P-Cube.XRM.Framework.Result.Response.htm" />
+  <HelpKINode Title="Result.Result constructor" Url="html/Overload-Cube.XRM.Framework.Result.-ctor.htm" />
+  <HelpKINode Title="RetrieveActions property" Url="html/P-Cube.XRM.Framework.CubeBase.RetrieveActions.htm" />
+  <HelpKINode Title="Save method" Url="html/M-Cube.XRM.Framework.Core.Loggers.ILogger.Save.htm" />
+  <HelpKINode Title="SecureString field" Url="html/F-Cube.XRM.Framework.AddOn.PluginManager.SecureString.htm" />
+  <HelpKINode Title="SecureValue property" Url="html/P-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.SecureValue.htm" />
+  <HelpKINode Title="SerializeEntity method" Url="html/M-Cube.XRM.Framework.Serializers.SerializeHelper.SerializeEntity.htm" />
+  <HelpKINode Title="SerializeEntityImageCollection method" Url="html/M-Cube.XRM.Framework.Serializers.SerializeHelper.SerializeEntityImageCollection.htm" />
+  <HelpKINode Title="SerializeHelper class">
+    <HelpKINode Title="SerializeHelper Class" Url="html/T-Cube.XRM.Framework.Serializers.SerializeHelper.htm" />
+    <HelpKINode Title="SerializeHelper Members" Url="html/AllMembers.T-Cube.XRM.Framework.Serializers.SerializeHelper.htm" />
+    <HelpKINode Title="about SerializeHelper class" Url="html/T-Cube.XRM.Framework.Serializers.SerializeHelper.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.Serializers.SerializeHelper.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.Serializers.SerializeHelper.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SerializeHelper.SerializeEntity method" Url="html/M-Cube.XRM.Framework.Serializers.SerializeHelper.SerializeEntity.htm" />
+  <HelpKINode Title="SerializeHelper.SerializeEntityImageCollection method" Url="html/M-Cube.XRM.Framework.Serializers.SerializeHelper.SerializeEntityImageCollection.htm" />
+  <HelpKINode Title="SerializeHelper.SerializeParameterCollection method" Url="html/M-Cube.XRM.Framework.Serializers.SerializeHelper.SerializeParameterCollection.htm" />
+  <HelpKINode Title="SerializeParameterCollection method" Url="html/M-Cube.XRM.Framework.Serializers.SerializeHelper.SerializeParameterCollection.htm" />
+  <HelpKINode Title="Service class">
+    <HelpKINode Title="Service Class" Url="html/T-Cube.XRM.Framework.Core.Service.htm" />
+    <HelpKINode Title="Service Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.Service.htm" />
+    <HelpKINode Title="about Service class" Url="html/T-Cube.XRM.Framework.Core.Service.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.Service.htm" />
+    <HelpKINode Title="constructor" Url="html/M-Cube.XRM.Framework.Core.Service.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.Core.Service.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Service.GetService method" Url="html/Overload-Cube.XRM.Framework.Core.Service.GetService.htm" />
+  <HelpKINode Title="Service.Service constructor" Url="html/M-Cube.XRM.Framework.Core.Service.-ctor.htm" />
+  <HelpKINode Title="SetCodeActivityParameter(Of T) method" Url="html/M-Cube.XRM.Framework.AddOn.WorkflowManager.SetCodeActivityParameter--1.htm" />
+  <HelpKINode Title="SetCodeActivityParameter&lt;T&gt; method" Url="html/M-Cube.XRM.Framework.AddOn.WorkflowManager.SetCodeActivityParameter--1.htm" />
+  <HelpKINode Title="Setting class">
+    <HelpKINode Title="Setting Class" Url="html/T-Cube.XRM.Framework.Setting.htm" />
+    <HelpKINode Title="Setting Members" Url="html/AllMembers.T-Cube.XRM.Framework.Setting.htm" />
+    <HelpKINode Title="about Setting class" Url="html/T-Cube.XRM.Framework.Setting.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.Setting.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.Setting.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Cube.XRM.Framework.Setting.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Setting.Key property" Url="html/P-Cube.XRM.Framework.Setting.Key.htm" />
+  <HelpKINode Title="Setting.Value property" Url="html/P-Cube.XRM.Framework.Setting.Value.htm" />
+  <HelpKINode Title="SettingGroup class">
+    <HelpKINode Title="SettingGroup Class" Url="html/T-Cube.XRM.Framework.Core.SettingGroup.htm" />
+    <HelpKINode Title="SettingGroup Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.SettingGroup.htm" />
+    <HelpKINode Title="about SettingGroup class" Url="html/T-Cube.XRM.Framework.Core.SettingGroup.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.SettingGroup.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.Core.SettingGroup.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Cube.XRM.Framework.Core.SettingGroup.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SettingGroup.GroupName property" Url="html/P-Cube.XRM.Framework.Core.SettingGroup.GroupName.htm" />
+  <HelpKINode Title="SettingGroup.Settings property" Url="html/P-Cube.XRM.Framework.Core.SettingGroup.Settings.htm" />
+  <HelpKINode Title="Settings property">
+    <HelpKINode Title="Settings Property " Url="html/P-Cube.XRM.Framework.Core.SettingGroup.Settings.htm" />
+    <HelpKINode Title="Settings Property " Url="html/P-Cube.XRM.Framework.Core.ISettingGroup.Settings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetValue method" Url="html/M-Cube.XRM.Framework.ObjectCarrier.SetValue.htm" />
+  <HelpKINode Title="SolutionActions class">
+    <HelpKINode Title="SolutionActions Class" Url="html/T-Cube.XRM.Framework.SolutionSettings.SolutionActions.htm" />
+    <HelpKINode Title="SolutionActions Members" Url="html/AllMembers.T-Cube.XRM.Framework.SolutionSettings.SolutionActions.htm" />
+    <HelpKINode Title="about SolutionActions class" Url="html/T-Cube.XRM.Framework.SolutionSettings.SolutionActions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.SolutionSettings.SolutionActions.htm" />
+    <HelpKINode Title="constructor" Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionActions.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.SolutionSettings.SolutionActions.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Cube.XRM.Framework.SolutionSettings.SolutionActions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SolutionActions.CreatedOn property" Url="html/P-Cube.XRM.Framework.SolutionSettings.SolutionActions.CreatedOn.htm" />
+  <HelpKINode Title="SolutionActions.GetItem method" Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionActions.GetItem.htm" />
+  <HelpKINode Title="SolutionActions.Identifier property" Url="html/P-Cube.XRM.Framework.SolutionSettings.SolutionActions.Identifier.htm" />
+  <HelpKINode Title="SolutionActions.Name property" Url="html/P-Cube.XRM.Framework.SolutionSettings.SolutionActions.Name.htm" />
+  <HelpKINode Title="SolutionActions.ParseItem method" Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionActions.ParseItem.htm" />
+  <HelpKINode Title="SolutionActions.PrepareEntity method" Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionActions.PrepareEntity.htm" />
+  <HelpKINode Title="SolutionActions.SolutionActions constructor" Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionActions.-ctor.htm" />
+  <HelpKINode Title="SolutionId property" Url="html/P-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.SolutionId.htm" />
+  <HelpKINode Title="SolutionSettingActions class">
+    <HelpKINode Title="SolutionSettingActions Class" Url="html/T-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.htm" />
+    <HelpKINode Title="SolutionSettingActions Members" Url="html/AllMembers.T-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.htm" />
+    <HelpKINode Title="about SolutionSettingActions class" Url="html/T-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.htm" />
+    <HelpKINode Title="constructor" Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SolutionSettingActions.GetItems method" Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.GetItems.htm" />
+  <HelpKINode Title="SolutionSettingActions.GetLicenseItem method" Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.GetLicenseItem.htm" />
+  <HelpKINode Title="SolutionSettingActions.Name property" Url="html/P-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.Name.htm" />
+  <HelpKINode Title="SolutionSettingActions.ParseItem method" Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.ParseItem.htm" />
+  <HelpKINode Title="SolutionSettingActions.PrepareEntity method" Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.PrepareEntity.htm" />
+  <HelpKINode Title="SolutionSettingActions.SecureValue property" Url="html/P-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.SecureValue.htm" />
+  <HelpKINode Title="SolutionSettingActions.SolutionId property" Url="html/P-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.SolutionId.htm" />
+  <HelpKINode Title="SolutionSettingActions.SolutionSettingActions constructor" Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.-ctor.htm" />
+  <HelpKINode Title="SolutionSettingActions.Value property" Url="html/P-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.Value.htm" />
+  <HelpKINode Title="SQL enumeration member" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.LogLocation.htm" />
+  <HelpKINode Title="SQL field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogLocation.SQL.htm" />
+  <HelpKINode Title="SuccessAudit enumeration member" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.htm" />
+  <HelpKINode Title="SuccessAudit field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.SuccessAudit.htm" />
+  <HelpKINode Title="TargetEntity property" Url="html/P-Cube.XRM.Framework.AddOn.PluginManager.TargetEntity.htm" />
+  <HelpKINode Title="Text enumeration member" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.LogLocation.htm" />
+  <HelpKINode Title="Text field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogLocation.Text.htm" />
+  <HelpKINode Title="ThrowException property" Url="html/P-Cube.XRM.Framework.AddOn.WorkflowManager.ThrowException.htm" />
+  <HelpKINode Title="ToString method" Url="html/M-Cube.XRM.Framework.CubeEntity.ToString.htm" />
+  <HelpKINode Title="TraceService property" Url="html/P-Cube.XRM.Framework.AddOn.DetailedLog.TraceService.htm" />
+  <HelpKINode Title="UnSecureString field" Url="html/F-Cube.XRM.Framework.AddOn.PluginManager.UnSecureString.htm" />
+  <HelpKINode Title="Update method">
+    <HelpKINode Title="Update Method " Url="html/M-Cube.XRM.Framework.Actions.Update.htm" />
+    <HelpKINode Title="Update Method " Url="html/M-Cube.XRM.Framework.CubeEntity.Update.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Value property">
+    <HelpKINode Title="Value Property " Url="html/P-Cube.XRM.Framework.Interfaces.ISetting.Value.htm" />
+    <HelpKINode Title="Value Property " Url="html/P-Cube.XRM.Framework.Setting.Value.htm" />
+    <HelpKINode Title="Value Property " Url="html/P-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.Value.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ValueObject property" Url="html/P-Cube.XRM.Framework.CubeProperty.ValueObject.htm" />
+  <HelpKINode Title="ValueString property" Url="html/P-Cube.XRM.Framework.CubeProperty.ValueString.htm" />
+  <HelpKINode Title="Warning enumeration member" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.htm" />
+  <HelpKINode Title="Warning field" Url="html/F-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.Warning.htm" />
+  <HelpKINode Title="WorkflowManager class">
+    <HelpKINode Title="WorkflowManager Class" Url="html/T-Cube.XRM.Framework.AddOn.WorkflowManager.htm" />
+    <HelpKINode Title="WorkflowManager Members" Url="html/AllMembers.T-Cube.XRM.Framework.AddOn.WorkflowManager.htm" />
+    <HelpKINode Title="about WorkflowManager class" Url="html/T-Cube.XRM.Framework.AddOn.WorkflowManager.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.AddOn.WorkflowManager.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.AddOn.WorkflowManager.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Cube.XRM.Framework.AddOn.WorkflowManager.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorkflowManager.DetailedException property" Url="html/P-Cube.XRM.Framework.AddOn.WorkflowManager.DetailedException.htm" />
+  <HelpKINode Title="WorkflowManager.ExceptionMessage property" Url="html/P-Cube.XRM.Framework.AddOn.WorkflowManager.ExceptionMessage.htm" />
+  <HelpKINode Title="WorkflowManager.GetCodeActivityParameter(Of T) method" Url="html/M-Cube.XRM.Framework.AddOn.WorkflowManager.GetCodeActivityParameter--1.htm" />
+  <HelpKINode Title="WorkflowManager.GetCodeActivityParameter&lt;T&gt; method" Url="html/M-Cube.XRM.Framework.AddOn.WorkflowManager.GetCodeActivityParameter--1.htm" />
+  <HelpKINode Title="WorkflowManager.IsExceptionOccured property" Url="html/P-Cube.XRM.Framework.AddOn.WorkflowManager.IsExceptionOccured.htm" />
+  <HelpKINode Title="WorkflowManager.ParseURL method" Url="html/M-Cube.XRM.Framework.AddOn.WorkflowManager.ParseURL.htm" />
+  <HelpKINode Title="WorkflowManager.SetCodeActivityParameter(Of T) method" Url="html/M-Cube.XRM.Framework.AddOn.WorkflowManager.SetCodeActivityParameter--1.htm" />
+  <HelpKINode Title="WorkflowManager.SetCodeActivityParameter&lt;T&gt; method" Url="html/M-Cube.XRM.Framework.AddOn.WorkflowManager.SetCodeActivityParameter--1.htm" />
+  <HelpKINode Title="WorkflowManager.ThrowException property" Url="html/P-Cube.XRM.Framework.AddOn.WorkflowManager.ThrowException.htm" />
+  <HelpKINode Title="Write method" Url="html/M-Cube.XRM.Framework.AddOn.ContextWriter.Write.htm" />
+  <HelpKINode Title="XMLSettingReader class">
+    <HelpKINode Title="XMLSettingReader Class" Url="html/T-Cube.XRM.Framework.Core.Settings.XMLSettingReader.htm" />
+    <HelpKINode Title="XMLSettingReader Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.Settings.XMLSettingReader.htm" />
+    <HelpKINode Title="about XMLSettingReader class" Url="html/T-Cube.XRM.Framework.Core.Settings.XMLSettingReader.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.Settings.XMLSettingReader.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Cube.XRM.Framework.Core.Settings.XMLSettingReader.htm" />
+  </HelpKINode>
+  <HelpKINode Title="XMLSettingReader.Read method" Url="html/Overload-Cube.XRM.Framework.Core.Settings.XMLSettingReader.Read.htm" />
+  <HelpKINode Title="XRMActions property" Url="html/P-Cube.XRM.Framework.CubeBase.XRMActions.htm" />
+  <HelpKINode Title="XrmService property" Url="html/P-Cube.XRM.Framework.CubeBase.XrmService.htm" />
+</HelpKI>

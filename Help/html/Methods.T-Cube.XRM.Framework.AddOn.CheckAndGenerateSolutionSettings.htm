@@ -1,0 +1,1178 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"[]>
+<html>
+  <head><link rel="shortcut icon" href="../favicon.ico" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="save" content="history" />
+    <title>CheckAndGenerateSolutionSettings Methods</title>
+    <link rel="stylesheet" type="text/css" href="../styles/lightweight.css" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <link rel="stylesheet" type="text/css" href="../styles/lw-code.css" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <script type="text/javascript" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" src="../scripts/languageSelector.js"> </script>
+    <meta name="container" content="Cube.XRM.Framework.AddOn" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <meta name="file" content="Methods.T-Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <meta name="guid" content="Methods.T-Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <xml xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <MSHelp:Attr Name="AssetID" Value="Methods.T:Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings" />
+      <MSHelp:TOCTitle Title="CheckAndGenerateSolutionSettings Methods" />
+      <MSHelp:RLTitle Title="CheckAndGenerateSolutionSettings Methods (Cube.XRM.Framework.AddOn)" />
+      <MSHelp:Keyword Index="A" Term="Methods.T:Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings" />
+      <MSHelp:Keyword Index="A" Term="frlrfCubeXRMFrameworkAddOnCheckAndGenerateSolutionSettingsMethodsTopic" />
+      <MSHelp:Keyword Index="K" Term="CheckAndGenerateSolutionSettings class, methods" />
+      <MSHelp:Attr Name="DevLang" Value="CSharp" />
+      <MSHelp:Attr Name="DevLang" Value="VB" />
+      <MSHelp:Attr Name="Locale" Value="en-us" />
+      <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
+      <MSHelp:Attr Name="TopicType" Value="apiref" />
+      <MSHelp:Attr Name="AssemblyVersion" Value="" />
+    </xml>
+  <link rel="stylesheet" href="../TOC.css"><script type="text/javascript" src="../TOC.js"></script></head>
+  <body onload="javascript: Initialize('.aspx');" onresize="javascript: ResizeTree();">
+            <div id="TOCDiv" class="TOCDiv" style="width: 310px; float: left; position: relative; ">
+
+            <div id="divSearchOpts" class="SearchOpts" style="height: 95px; display: none;">
+                <div class="SearchOptsInner">
+                    <img class="TOCLink" onclick="javascript: ShowHideSearch(false);" src="../Close.png" height="24" width="24" alt="Hide Search" title="Hide Search" style="float: right;" />
+                    <span class="Title">Keyword(s) to search:</span>
+                </div>
+                <div class="SearchOptsInner">
+                    <input id="txtSearchText" type="text" style="width: 95.5%;" onkeypress="javascript: return OnSearchTextKeyPress(event);" />
+                </div>
+                <div class="SearchOptsInner">
+                    <input id="chkSortByTitle" type="checkbox" />&nbsp;Sort results by title
+                    <input type="button" value="Search" onclick="javascript: return PerformSearch();" style="float: right;" />
+                </div>
+            </div>
+
+            <div id="divIndexOpts" class="IndexOpts" style="height: 28px; display: none;">
+                <img class="TOCLink" onclick="javascript: ShowHideIndex(false);"
+                     src="../Close.png" height="24" width="24" alt="Hide Keyword Index" title="Hide Keyword Index" style="float: right;" />
+                <span class="Title">Keyword Index</span>
+            </div>
+
+            <div id="divNavOpts" class="NavOpts" style="height: 28px;">
+                <!--<img class="TOCLink" onclick="javascript: SyncTOC();" src="../SyncTOC.png"
+                     height="24" width="24" alt="Sync to TOC" title="Sync to TOC" />-->
+                <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(true);"
+                     src="../ExpandAll.png" height="24" width="24" alt="Expand all" title="Expand all" />
+                <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(false);"
+                     src="../CollapseAll.png" height="24" width="24" alt="Collapse all" title="Collapse all" />
+                <!--<img class="TOCLink" onclick="javascript: alert('Please make sure to use either Index.aspx or Index.php to enable the Keyword Index feature.');"
+                     src="../Index.png" height="24" width="24" alt="Keyword Index" title="Keyword Index" />-->
+                <img class="TOCLink" onclick="javascript: ShowHideSearch(true);"
+                     src="../Search.png" height="24" width="24" alt="Search" title="Search" />
+                <img class="TOCLink" onclick="javascript: ShowDirectLink();"
+                     src="../Link.png" height="24" width="24" alt="Get direct link to the displayed topic" title="Get direct link to the displayed topic" />
+                <a href="#" onclick="javascript: window.history.go(-1); return false;">
+                    <img class="TOCLink" style="float: right;"
+                         src="../Back.png" height="24" width="24" alt="Previous page" title="Previous page" />
+                </a>
+            </div>
+
+            <div class="Tree" id="divSearchResults" style="display: none;"
+                 onselectstart="javascript: return false;">
+            </div>
+
+            <div class="Tree" id="divIndexResults" style="display: none;"
+                 onselectstart="javascript: return false;">
+            </div>
+
+            <div class="Tree" id="divTree" onselectstart="javascript: return false;">
+              <div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Cube.XRM.Framework.htm" target="_self">Cube.XRM.Framework Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.Actions.htm" target="_self">Actions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.Actions.htm" target="_self">Actions Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-Cube.XRM.Framework.Actions.-ctor.htm" target="_self">Actions Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Actions.-ctor.htm" target="_self">Actions Constructor (IDetailedLog, IOrganizationService)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Actions.-ctor_1.htm" target="_self">Actions Constructor (IDetailedLog, IOrganizationService, Boolean)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Cube.XRM.Framework.Actions.htm" target="_self">Actions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Actions.Associate.htm" target="_self">Associate Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Actions.Create.htm" target="_self">Create Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Actions.Delete.htm" target="_self">Delete Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Actions.Disassociate.htm" target="_self">Disassociate Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Actions.Execute--2.htm" target="_self">Execute(T, V) Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Actions.Update.htm" target="_self">Update Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.CubeBase.htm" target="_self">CubeBase Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.CubeBase.htm" target="_self">CubeBase Members</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Methods.T-Cube.XRM.Framework.CubeBase.htm" target="_self">CubeBase Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-Cube.XRM.Framework.CubeBase.htm" target="_self">CubeBase Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.CubeBase.BaseSystemObject.htm" target="_self">BaseSystemObject Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.CubeBase.Context.htm" target="_self">Context Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.CubeBase.LogSystem.htm" target="_self">LogSystem Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.CubeBase.MetadataRetrieveActions.htm" target="_self">MetadataRetrieveActions Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.CubeBase.RetrieveActions.htm" target="_self">RetrieveActions Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.CubeBase.XRMActions.htm" target="_self">XRMActions Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.CubeBase.XrmService.htm" target="_self">XrmService Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.CubeEntity.htm" target="_self">CubeEntity Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.CubeEntity.htm" target="_self">CubeEntity Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-Cube.XRM.Framework.CubeEntity.-ctor.htm" target="_self">CubeEntity Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.CubeEntity.-ctor.htm" target="_self">CubeEntity Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.CubeEntity.-ctor_1.htm" target="_self">CubeEntity Constructor (CubeBase)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Cube.XRM.Framework.CubeEntity.htm" target="_self">CubeEntity Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.CubeEntity.Create.htm" target="_self">Create Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.CubeEntity.Delete.htm" target="_self">Delete Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.CubeEntity.ParseEntities.htm" target="_self">ParseEntities Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.CubeEntity.ParseItem.htm" target="_self">ParseItem Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.CubeEntity.PrepareEntity.htm" target="_self">PrepareEntity Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.CubeEntity.ToString.htm" target="_self">ToString Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.CubeEntity.Update.htm" target="_self">Update Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-Cube.XRM.Framework.CubeEntity.htm" target="_self">CubeEntity Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.CubeEntity.cube.htm" target="_self">cube Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.CubeEntity.EntityName.htm" target="_self">EntityName Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.CubeEntity.ErrorCode.htm" target="_self">ErrorCode Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.CubeEntity.ErrorDetail.htm" target="_self">ErrorDetail Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.CubeEntity.ID.htm" target="_self">ID Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.CubeEntity.Item-System.String-.htm" target="_self">Item Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.CubeEntityExtension.htm" target="_self">CubeEntityExtension Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.CubeEntityExtension.htm" target="_self">CubeEntityExtension Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Cube.XRM.Framework.CubeEntityExtension.htm" target="_self">CubeEntityExtension Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.CubeEntityExtension.Clone.htm" target="_self">Clone Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.CubeEntityExtension.Merge.htm" target="_self">Merge Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.CubeProperty.htm" target="_self">CubeProperty Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.CubeProperty.htm" target="_self">CubeProperty Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-Cube.XRM.Framework.CubeProperty.-ctor.htm" target="_self">CubeProperty Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.CubeProperty.-ctor.htm" target="_self">CubeProperty Constructor (Object)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.CubeProperty.-ctor_1.htm" target="_self">CubeProperty Constructor (Object, CubeBase, Entity)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Methods.T-Cube.XRM.Framework.CubeProperty.htm" target="_self">CubeProperty Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-Cube.XRM.Framework.CubeProperty.htm" target="_self">CubeProperty Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.CubeProperty.ExtensionData.htm" target="_self">ExtensionData Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.CubeProperty.IsSet.htm" target="_self">IsSet Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.CubeProperty.LogicalName.htm" target="_self">LogicalName Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.CubeProperty.Name.htm" target="_self">Name Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.CubeProperty.ValueObject.htm" target="_self">ValueObject Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.CubeProperty.ValueString.htm" target="_self">ValueString Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.ExceptionHandler.htm" target="_self">ExceptionHandler Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.ExceptionHandler.htm" target="_self">ExceptionHandler Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Cube.XRM.Framework.ExceptionHandler.htm" target="_self">ExceptionHandler Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.ExceptionHandler.HandleException.htm" target="_self">HandleException Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.MetadataActions.htm" target="_self">MetadataActions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.MetadataActions.htm" target="_self">MetadataActions Members</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.MetadataActions.-ctor.htm" target="_self">MetadataActions Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Cube.XRM.Framework.MetadataActions.htm" target="_self">MetadataActions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.MetadataActions.GetEntityDetials.htm" target="_self">GetEntityDetials Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.MetadataActions.GetOptionSets.htm" target="_self">GetOptionSets Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.MetadataActions.GetOptionSetText.htm" target="_self">GetOptionSetText Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.ObjectCarrier.htm" target="_self">ObjectCarrier Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.ObjectCarrier.htm" target="_self">ObjectCarrier Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Cube.XRM.Framework.ObjectCarrier.htm" target="_self">ObjectCarrier Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.ObjectCarrier.GetAllValues.htm" target="_self">GetAllValues Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.ObjectCarrier.GetValue--1.htm" target="_self">GetValue(T) Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.ObjectCarrier.HasValue.htm" target="_self">HasValue Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.ObjectCarrier.SetValue.htm" target="_self">SetValue Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.QueryActions.htm" target="_self">QueryActions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.QueryActions.htm" target="_self">QueryActions Members</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.QueryActions.-ctor.htm" target="_self">QueryActions Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Cube.XRM.Framework.QueryActions.htm" target="_self">QueryActions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.QueryActions.GetAsLookup.htm" target="_self">GetAsLookup Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.QueryActions.getItemFetch.htm" target="_self">getItemFetch Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.QueryActions.getItemRetrieve.htm" target="_self">getItemRetrieve Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.QueryActions.getItemsFetch.htm" target="_self">getItemsFetch Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.QueryActions.getItemsFromRollupQuery.htm" target="_self">getItemsFromRollupQuery Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.Result.htm" target="_self">Result Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.Result.htm" target="_self">Result Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-Cube.XRM.Framework.Result.-ctor.htm" target="_self">Result Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Result.-ctor.htm" target="_self">Result Constructor (Boolean, String, Object, IDetailedLog)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Result.-ctor_1.htm" target="_self">Result Constructor (Boolean, String, IDetailedLog, OrganizationResponse)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Result.-ctor_2.htm" target="_self">Result Constructor (Boolean, String, Object[], IDetailedLog)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Methods.T-Cube.XRM.Framework.Result.htm" target="_self">Result Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-Cube.XRM.Framework.Result.htm" target="_self">Result Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.Result.BusinessObject.htm" target="_self">BusinessObject Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.Result.BusinessObjectArray.htm" target="_self">BusinessObjectArray Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.Result.isError.htm" target="_self">isError Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.Result.Message.htm" target="_self">Message Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.Result.Response.htm" target="_self">Response Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.Setting.htm" target="_self">Setting Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.Setting.htm" target="_self">Setting Members</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Methods.T-Cube.XRM.Framework.Setting.htm" target="_self">Setting Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-Cube.XRM.Framework.Setting.htm" target="_self">Setting Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.Setting.Key.htm" target="_self">Key Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.Setting.Value.htm" target="_self">Value Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Cube.XRM.Framework.AddOn.htm" target="_self">Cube.XRM.Framework.AddOn Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings.htm" target="_self">CheckAndGenerateSolutionSettings Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings.htm" target="_self">CheckAndGenerateSolutionSettings Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings.htm" target="_self">CheckAndGenerateSolutionSettings Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings.Execute.htm" target="_self">Execute Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.AddOn.ContextWriter.htm" target="_self">ContextWriter Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.AddOn.ContextWriter.htm" target="_self">ContextWriter Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Cube.XRM.Framework.AddOn.ContextWriter.htm" target="_self">ContextWriter Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.AddOn.ContextWriter.Write.htm" target="_self">Write Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.AddOn.DetailedLog.htm" target="_self">DetailedLog Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.AddOn.DetailedLog.htm" target="_self">DetailedLog Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Cube.XRM.Framework.AddOn.DetailedLog.htm" target="_self">DetailedLog Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-Cube.XRM.Framework.AddOn.DetailedLog.CreateLog.htm" target="_self">CreateLog Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.AddOn.DetailedLog.CreateLog.htm" target="_self">CreateLog Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.AddOn.DetailedLog.CreateLog_1.htm" target="_self">CreateLog Method (String, EventLogEntryType)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.AddOn.DetailedLog.LogEntityObjects.htm" target="_self">LogEntityObjects Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-Cube.XRM.Framework.AddOn.DetailedLog.htm" target="_self">DetailedLog Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.AddOn.DetailedLog.TraceService.htm" target="_self">TraceService Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.AddOn.PluginManager.htm" target="_self">PluginManager Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.AddOn.PluginManager.htm" target="_self">PluginManager Members</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.AddOn.PluginManager.-ctor.htm" target="_self">PluginManager Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Fields.T-Cube.XRM.Framework.AddOn.PluginManager.htm" target="_self">PluginManager Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-Cube.XRM.Framework.AddOn.PluginManager.SecureString.htm" target="_self">SecureString Field</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-Cube.XRM.Framework.AddOn.PluginManager.UnSecureString.htm" target="_self">UnSecureString Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Cube.XRM.Framework.AddOn.PluginManager.htm" target="_self">PluginManager Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.AddOn.PluginManager.Execute.htm" target="_self">Execute Method (IServiceProvider)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-Cube.XRM.Framework.AddOn.PluginManager.htm" target="_self">PluginManager Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.AddOn.PluginManager.PostImage.htm" target="_self">PostImage Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.AddOn.PluginManager.PreImage.htm" target="_self">PreImage Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.AddOn.PluginManager.TargetEntity.htm" target="_self">TargetEntity Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.AddOn.WorkflowManager.htm" target="_self">WorkflowManager Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.AddOn.WorkflowManager.htm" target="_self">WorkflowManager Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Cube.XRM.Framework.AddOn.WorkflowManager.htm" target="_self">WorkflowManager Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.AddOn.WorkflowManager.GetCodeActivityParameter--1.htm" target="_self">GetCodeActivityParameter(T) Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.AddOn.WorkflowManager.ParseURL.htm" target="_self">ParseURL Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.AddOn.WorkflowManager.SetCodeActivityParameter--1.htm" target="_self">SetCodeActivityParameter(T) Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-Cube.XRM.Framework.AddOn.WorkflowManager.htm" target="_self">WorkflowManager Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.AddOn.WorkflowManager.DetailedException.htm" target="_self">DetailedException Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.AddOn.WorkflowManager.ExceptionMessage.htm" target="_self">ExceptionMessage Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.AddOn.WorkflowManager.IsExceptionOccured.htm" target="_self">IsExceptionOccured Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.AddOn.WorkflowManager.ThrowException.htm" target="_self">ThrowException Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Cube.XRM.Framework.Core.htm" target="_self">Cube.XRM.Framework.Core Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.Core.DetailedLog.htm" target="_self">DetailedLog Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.Core.DetailedLog.htm" target="_self">DetailedLog Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-Cube.XRM.Framework.Core.DetailedLog.-ctor.htm" target="_self">DetailedLog Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Core.DetailedLog.-ctor.htm" target="_self">DetailedLog Constructor (ILogger, LogLevel, String, LogScreen)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Core.DetailedLog.-ctor_1.htm" target="_self">DetailedLog Constructor (ILogger, LogLevel, SqlConnection, LogScreen)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Cube.XRM.Framework.Core.DetailedLog.htm" target="_self">DetailedLog Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-Cube.XRM.Framework.Core.DetailedLog.CreateLog.htm" target="_self">CreateLog Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Core.DetailedLog.CreateLog.htm" target="_self">CreateLog Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Core.DetailedLog.CreateLog_1.htm" target="_self">CreateLog Method (String, EventLogEntryType)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Core.DetailedLog.LogEntityObjects.htm" target="_self">LogEntityObjects Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.Core.EnumCarrier.htm" target="_self">EnumCarrier Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Methods.T-Cube.XRM.Framework.Core.EnumCarrier.htm" target="_self">EnumCarrier Methods</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.htm" target="_self">EnumCarrier.LogLevel Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Cube.XRM.Framework.Core.EnumCarrier.LogLocation.htm" target="_self">EnumCarrier.LogLocation Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Cube.XRM.Framework.Core.EnumCarrier.LogScreen.htm" target="_self">EnumCarrier.LogScreen Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.Core.FrameworkInitializer.htm" target="_self">FrameworkInitializer Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.Core.FrameworkInitializer.htm" target="_self">FrameworkInitializer Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-Cube.XRM.Framework.Core.FrameworkInitializer.-ctor.htm" target="_self">FrameworkInitializer Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Core.FrameworkInitializer.-ctor.htm" target="_self">FrameworkInitializer Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Core.FrameworkInitializer.-ctor_1.htm" target="_self">FrameworkInitializer Constructor (String)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Methods.T-Cube.XRM.Framework.Core.FrameworkInitializer.htm" target="_self">FrameworkInitializer Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-Cube.XRM.Framework.Core.FrameworkInitializer.htm" target="_self">FrameworkInitializer Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.Core.FrameworkInitializer.cube.htm" target="_self">cube Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.Core.ISettingGroup.htm" target="_self">ISettingGroup Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.Core.ISettingGroup.htm" target="_self">ISettingGroup Members</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Methods.T-Cube.XRM.Framework.Core.ISettingGroup.htm" target="_self">ISettingGroup Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-Cube.XRM.Framework.Core.ISettingGroup.htm" target="_self">ISettingGroup Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.Core.ISettingGroup.GroupName.htm" target="_self">GroupName Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.Core.ISettingGroup.Settings.htm" target="_self">Settings Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.Core.Service.htm" target="_self">Service Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.Core.Service.htm" target="_self">Service Members</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Core.Service.-ctor.htm" target="_self">Service Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Cube.XRM.Framework.Core.Service.htm" target="_self">Service Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-Cube.XRM.Framework.Core.Service.GetService.htm" target="_self">GetService Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Core.Service.GetService.htm" target="_self">GetService Method (String, String, String)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Core.Service.GetService_1.htm" target="_self">GetService Method (String)</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.Core.SettingGroup.htm" target="_self">SettingGroup Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.Core.SettingGroup.htm" target="_self">SettingGroup Members</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Methods.T-Cube.XRM.Framework.Core.SettingGroup.htm" target="_self">SettingGroup Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-Cube.XRM.Framework.Core.SettingGroup.htm" target="_self">SettingGroup Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.Core.SettingGroup.GroupName.htm" target="_self">GroupName Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.Core.SettingGroup.Settings.htm" target="_self">Settings Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Cube.XRM.Framework.Core.Loggers.htm" target="_self">Cube.XRM.Framework.Core.Loggers Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.Core.Loggers.ILogger.htm" target="_self">ILogger Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.Core.Loggers.ILogger.htm" target="_self">ILogger Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Cube.XRM.Framework.Core.Loggers.ILogger.htm" target="_self">ILogger Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Core.Loggers.ILogger.Save.htm" target="_self">Save Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Cube.XRM.Framework.Core.Settings.htm" target="_self">Cube.XRM.Framework.Core.Settings Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.Core.Settings.ISettingReader.htm" target="_self">ISettingReader Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.Core.Settings.ISettingReader.htm" target="_self">ISettingReader Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Cube.XRM.Framework.Core.Settings.ISettingReader.htm" target="_self">ISettingReader Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-Cube.XRM.Framework.Core.Settings.ISettingReader.Read.htm" target="_self">Read Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Core.Settings.ISettingReader.Read.htm" target="_self">Read Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Core.Settings.ISettingReader.Read_1.htm" target="_self">Read Method (String)</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.Core.Settings.XMLSettingReader.htm" target="_self">XMLSettingReader Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.Core.Settings.XMLSettingReader.htm" target="_self">XMLSettingReader Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Cube.XRM.Framework.Core.Settings.XMLSettingReader.htm" target="_self">XMLSettingReader Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-Cube.XRM.Framework.Core.Settings.XMLSettingReader.Read.htm" target="_self">Read Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Core.Settings.XMLSettingReader.Read.htm" target="_self">Read Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Core.Settings.XMLSettingReader.Read_1.htm" target="_self">Read Method (String)</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Cube.XRM.Framework.Interfaces.htm" target="_self">Cube.XRM.Framework.Interfaces Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.Interfaces.IDetailedLog.htm" target="_self">IDetailedLog Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.Interfaces.IDetailedLog.htm" target="_self">IDetailedLog Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Cube.XRM.Framework.Interfaces.IDetailedLog.htm" target="_self">IDetailedLog Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-Cube.XRM.Framework.Interfaces.IDetailedLog.CreateLog.htm" target="_self">CreateLog Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Interfaces.IDetailedLog.CreateLog.htm" target="_self">CreateLog Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Interfaces.IDetailedLog.CreateLog_1.htm" target="_self">CreateLog Method (String, EventLogEntryType)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Interfaces.IDetailedLog.LogEntityObjects.htm" target="_self">LogEntityObjects Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.Interfaces.ISetting.htm" target="_self">ISetting Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.Interfaces.ISetting.htm" target="_self">ISetting Members</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Methods.T-Cube.XRM.Framework.Interfaces.ISetting.htm" target="_self">ISetting Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-Cube.XRM.Framework.Interfaces.ISetting.htm" target="_self">ISetting Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.Interfaces.ISetting.Key.htm" target="_self">Key Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.Interfaces.ISetting.Value.htm" target="_self">Value Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Cube.XRM.Framework.Serializers.htm" target="_self">Cube.XRM.Framework.Serializers Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.Serializers.SerializeHelper.htm" target="_self">SerializeHelper Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.Serializers.SerializeHelper.htm" target="_self">SerializeHelper Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Cube.XRM.Framework.Serializers.SerializeHelper.htm" target="_self">SerializeHelper Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Serializers.SerializeHelper.SerializeEntity.htm" target="_self">SerializeEntity Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Serializers.SerializeHelper.SerializeEntityImageCollection.htm" target="_self">SerializeEntityImageCollection Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.Serializers.SerializeHelper.SerializeParameterCollection.htm" target="_self">SerializeParameterCollection Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Cube.XRM.Framework.SolutionSettings.htm" target="_self">Cube.XRM.Framework.SolutionSettings Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.SolutionSettings.SolutionActions.htm" target="_self">SolutionActions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.SolutionSettings.SolutionActions.htm" target="_self">SolutionActions Members</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.SolutionSettings.SolutionActions.-ctor.htm" target="_self">SolutionActions Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Cube.XRM.Framework.SolutionSettings.SolutionActions.htm" target="_self">SolutionActions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.SolutionSettings.SolutionActions.GetItem.htm" target="_self">GetItem Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.SolutionSettings.SolutionActions.ParseItem.htm" target="_self">ParseItem Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.SolutionSettings.SolutionActions.PrepareEntity.htm" target="_self">PrepareEntity Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-Cube.XRM.Framework.SolutionSettings.SolutionActions.htm" target="_self">SolutionActions Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.SolutionSettings.SolutionActions.CreatedOn.htm" target="_self">CreatedOn Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.SolutionSettings.SolutionActions.Identifier.htm" target="_self">Identifier Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.SolutionSettings.SolutionActions.Name.htm" target="_self">Name Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.htm" target="_self">SolutionSettingActions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.htm" target="_self">SolutionSettingActions Members</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.-ctor.htm" target="_self">SolutionSettingActions Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.htm" target="_self">SolutionSettingActions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.GetItems.htm" target="_self">GetItems Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.GetLicenseItem.htm" target="_self">GetLicenseItem Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.ParseItem.htm" target="_self">ParseItem Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.PrepareEntity.htm" target="_self">PrepareEntity Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.htm" target="_self">SolutionSettingActions Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.Name.htm" target="_self">Name Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.SecureValue.htm" target="_self">SecureValue Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.SolutionId.htm" target="_self">SolutionId Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.Value.htm" target="_self">Value Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+            </div>
+
+        </div>
+
+        <div id="TOCSizer" class="TOCSizer" onmousedown="OnMouseDown(event)" onselectstart="javascript: return false;"></div>
+        
+        <div id ="TopicContent" name="TopicContent" class="TopicContent" style="float: none; margin-left: 312px;height: -webkit-fill-available;display:block;overflow: auto;">
+          <div class="header" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <table class="headerBar cl_lightweight_topnav_slice" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+          <tr>
+            <td class="leftSection cl_lightweight_header_leftSection_wave leftSectionImageClusterOverride" />
+            <td class="rightSection cl_lightweight_header_rightSection_wave rightSectionImageClusterOverride">
+              <div class="tabContainer">Cube XRM Framework for D365 CE</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+          <!-- Content Starts Here -->
+          <div class="contentPlaceHolder" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <div class="content">
+        <div class="topicContainer">
+          <div class="topic">
+            <p class="majorTitle" />
+            <h1 class="title">CheckAndGenerateSolutionSettings Methods</h1>
+            <div id="mainSection">
+              <div id="mainBody">
+                <p>The <a href="T-Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings.htm">CheckAndGenerateSolutionSettings</a> type exposes the following members.</p>
+                <div class="LW_CollapsibleArea_Container">
+                  <div class="LW_CollapsibleArea_TitleDiv">
+                    <h2 class="LW_CollapsibleArea_Title">Methods</h2>
+                    <div class="LW_CollapsibleArea_HrDiv">
+                      <hr class="LW_CollapsibleArea_Hr" />
+                    </div>
+                  </div>
+                  <a id="methodTableSection">
+                    <!---->
+                  </a>
+                  <table class="members">
+                    <tr>
+                      <th class="iconColumn">
+               
+            </th>
+                      <th class="nameColumn">Name</th>
+                      <th class="descriptionColumn">Description</th>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                      </td>
+                      <td>
+                        <a href="http://msdn.microsoft.com/en-us/library/bsc2ak47.aspx" target="_blank">Equals(System.Object)</a>
+                      </td>
+                      <td> (Inherited from <a href="http://msdn.microsoft.com/en-us/library/system.object.aspx" target="_blank">Object</a>.)</td>
+                    </tr>
+                    <tr data="public;static;declared;notNetfw;">
+                      <td>
+                        <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                        <img src="../icons/static.gif" alt="Static member" title="Static member" />
+                      </td>
+                      <td>
+                        <a href="M-Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings.Execute.htm">Execute</a>
+                      </td>
+                      <td>
+                        <div class="summary">
+   Executes the specified cube.
+   </div>
+                      </td>
+                    </tr>
+                    <tr data="protected;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+                      </td>
+                      <td>
+                        <a href="http://msdn.microsoft.com/en-us/library/system.object.finalize.aspx" target="_blank">Finalize</a>
+                      </td>
+                      <td> (Inherited from <a href="http://msdn.microsoft.com/en-us/library/system.object.aspx" target="_blank">Object</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                      </td>
+                      <td>
+                        <a href="http://msdn.microsoft.com/en-us/library/system.object.gethashcode.aspx" target="_blank">GetHashCode</a>
+                      </td>
+                      <td> (Inherited from <a href="http://msdn.microsoft.com/en-us/library/system.object.aspx" target="_blank">Object</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                      </td>
+                      <td>
+                        <a href="http://msdn.microsoft.com/en-us/library/system.object.gettype.aspx" target="_blank">GetType</a>
+                      </td>
+                      <td> (Inherited from <a href="http://msdn.microsoft.com/en-us/library/system.object.aspx" target="_blank">Object</a>.)</td>
+                    </tr>
+                    <tr data="protected;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+                      </td>
+                      <td>
+                        <a href="http://msdn.microsoft.com/en-us/library/system.object.memberwiseclone.aspx" target="_blank">MemberwiseClone</a>
+                      </td>
+                      <td> (Inherited from <a href="http://msdn.microsoft.com/en-us/library/system.object.aspx" target="_blank">Object</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                      </td>
+                      <td>
+                        <a href="http://msdn.microsoft.com/en-us/library/system.object.tostring.aspx" target="_blank">ToString</a>
+                      </td>
+                      <td> (Inherited from <a href="http://msdn.microsoft.com/en-us/library/system.object.aspx" target="_blank">Object</a>.)</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="LW_CollapsibleArea_Container">
+                  <div class="LW_CollapsibleArea_TitleDiv">
+                    <h2 class="LW_CollapsibleArea_Title">See Also</h2>
+                    <div class="LW_CollapsibleArea_HrDiv">
+                      <hr class="LW_CollapsibleArea_Hr" />
+                    </div>
+                  </div>
+                  <a id="seeAlsoSection">
+                    <!---->
+                  </a>
+                  <div class="seeAlsoStyle">
+                    <a href="T-Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings.htm">CheckAndGenerateSolutionSettings Class</a>
+                  </div>
+                  <div class="seeAlsoStyle">
+                    <a href="N-Cube.XRM.Framework.AddOn.htm">Cube.XRM.Framework.AddOn Namespace</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div id="footer" class="footerContainer">
+          <div class="footerLogoContainer">
+            <div style="margin-top:5px">
+              <span class="customCopyrightFooter">Mawens Business Solutions</span>
+            </div>
+            <div style="margin-top:5px" class="copyrightFooter">
+              <a href="http://submain.com/fwlink/gd-help/generated/">Created with evaluation copy of GhostDoc Pro. Click here to purchase and remove this link.</a>
+            </div>
+            <div> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+          <!-- /Content Ends Here -->
+        </div>
+
+
+  </body>
+</html>

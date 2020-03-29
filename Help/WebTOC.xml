@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="c352d376-411d-4f05-b7f6-0339bb1d9ea2" Title="Cube.XRM.Framework Namespace" Url="html/N-Cube.XRM.Framework.htm">
+    <HelpTOCNode Id="bf36d729-7399-45e2-bff2-468d54c5eabe" Title="Actions Class" Url="html/T-Cube.XRM.Framework.Actions.htm">
+      <HelpTOCNode Title="Actions Members" Url="html/AllMembers.T-Cube.XRM.Framework.Actions.htm" />
+      <HelpTOCNode Id="1624f3ae-1b7e-4f94-9a1f-f21dc80006d9" Title="Actions Constructor " Url="html/Overload-Cube.XRM.Framework.Actions.-ctor.htm">
+        <HelpTOCNode Title="Actions Constructor (IDetailedLog, IOrganizationService)" Url="html/M-Cube.XRM.Framework.Actions.-ctor.htm" />
+        <HelpTOCNode Title="Actions Constructor (IDetailedLog, IOrganizationService, Boolean)" Url="html/M-Cube.XRM.Framework.Actions.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2c0fbb73-2709-4007-b847-6b6138f784a7" Title="Actions Methods" Url="html/Methods.T-Cube.XRM.Framework.Actions.htm">
+        <HelpTOCNode Title="Associate Method " Url="html/M-Cube.XRM.Framework.Actions.Associate.htm" />
+        <HelpTOCNode Title="Create Method " Url="html/M-Cube.XRM.Framework.Actions.Create.htm" />
+        <HelpTOCNode Title="Delete Method " Url="html/M-Cube.XRM.Framework.Actions.Delete.htm" />
+        <HelpTOCNode Title="Disassociate Method " Url="html/M-Cube.XRM.Framework.Actions.Disassociate.htm" />
+        <HelpTOCNode Title="Execute(T, V) Method " Url="html/M-Cube.XRM.Framework.Actions.Execute--2.htm" />
+        <HelpTOCNode Title="Update Method " Url="html/M-Cube.XRM.Framework.Actions.Update.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a7d1ef42-d30e-4816-84da-061b4fe7fd58" Title="CubeBase Class" Url="html/T-Cube.XRM.Framework.CubeBase.htm">
+      <HelpTOCNode Title="CubeBase Members" Url="html/AllMembers.T-Cube.XRM.Framework.CubeBase.htm" />
+      <HelpTOCNode Title="CubeBase Methods" Url="html/Methods.T-Cube.XRM.Framework.CubeBase.htm" />
+      <HelpTOCNode Id="9d22c114-aa9e-4178-a5d9-43931d7a6160" Title="CubeBase Properties" Url="html/Properties.T-Cube.XRM.Framework.CubeBase.htm">
+        <HelpTOCNode Title="BaseSystemObject Property " Url="html/P-Cube.XRM.Framework.CubeBase.BaseSystemObject.htm" />
+        <HelpTOCNode Title="Context Property " Url="html/P-Cube.XRM.Framework.CubeBase.Context.htm" />
+        <HelpTOCNode Title="LogSystem Property " Url="html/P-Cube.XRM.Framework.CubeBase.LogSystem.htm" />
+        <HelpTOCNode Title="MetadataRetrieveActions Property " Url="html/P-Cube.XRM.Framework.CubeBase.MetadataRetrieveActions.htm" />
+        <HelpTOCNode Title="RetrieveActions Property " Url="html/P-Cube.XRM.Framework.CubeBase.RetrieveActions.htm" />
+        <HelpTOCNode Title="XRMActions Property " Url="html/P-Cube.XRM.Framework.CubeBase.XRMActions.htm" />
+        <HelpTOCNode Title="XrmService Property " Url="html/P-Cube.XRM.Framework.CubeBase.XrmService.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="07b21e17-2ed0-4b78-811f-5814fa0d141d" Title="CubeEntity Class" Url="html/T-Cube.XRM.Framework.CubeEntity.htm">
+      <HelpTOCNode Title="CubeEntity Members" Url="html/AllMembers.T-Cube.XRM.Framework.CubeEntity.htm" />
+      <HelpTOCNode Id="9373c84e-98c9-45c5-9ec7-6c1beb0868c5" Title="CubeEntity Constructor " Url="html/Overload-Cube.XRM.Framework.CubeEntity.-ctor.htm">
+        <HelpTOCNode Title="CubeEntity Constructor " Url="html/M-Cube.XRM.Framework.CubeEntity.-ctor.htm" />
+        <HelpTOCNode Title="CubeEntity Constructor (CubeBase)" Url="html/M-Cube.XRM.Framework.CubeEntity.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e361d077-fed2-4a44-aa3b-96773beef32c" Title="CubeEntity Methods" Url="html/Methods.T-Cube.XRM.Framework.CubeEntity.htm">
+        <HelpTOCNode Title="Create Method " Url="html/M-Cube.XRM.Framework.CubeEntity.Create.htm" />
+        <HelpTOCNode Title="Delete Method " Url="html/M-Cube.XRM.Framework.CubeEntity.Delete.htm" />
+        <HelpTOCNode Title="ParseEntities Method " Url="html/M-Cube.XRM.Framework.CubeEntity.ParseEntities.htm" />
+        <HelpTOCNode Title="ParseItem Method " Url="html/M-Cube.XRM.Framework.CubeEntity.ParseItem.htm" />
+        <HelpTOCNode Title="PrepareEntity Method " Url="html/M-Cube.XRM.Framework.CubeEntity.PrepareEntity.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M-Cube.XRM.Framework.CubeEntity.ToString.htm" />
+        <HelpTOCNode Title="Update Method " Url="html/M-Cube.XRM.Framework.CubeEntity.Update.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c1c75249-1b8b-4dc0-9dd2-88469cea86b8" Title="CubeEntity Properties" Url="html/Properties.T-Cube.XRM.Framework.CubeEntity.htm">
+        <HelpTOCNode Title="cube Property " Url="html/P-Cube.XRM.Framework.CubeEntity.cube.htm" />
+        <HelpTOCNode Title="EntityName Property " Url="html/P-Cube.XRM.Framework.CubeEntity.EntityName.htm" />
+        <HelpTOCNode Title="ErrorCode Property " Url="html/P-Cube.XRM.Framework.CubeEntity.ErrorCode.htm" />
+        <HelpTOCNode Title="ErrorDetail Property " Url="html/P-Cube.XRM.Framework.CubeEntity.ErrorDetail.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/P-Cube.XRM.Framework.CubeEntity.ID.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/P-Cube.XRM.Framework.CubeEntity.Item-System.String-.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5914c77d-f50c-4d3d-ae61-b2d5f07c6c78" Title="CubeEntityExtension Class" Url="html/T-Cube.XRM.Framework.CubeEntityExtension.htm">
+      <HelpTOCNode Title="CubeEntityExtension Members" Url="html/AllMembers.T-Cube.XRM.Framework.CubeEntityExtension.htm" />
+      <HelpTOCNode Id="86d3bab8-d849-480c-b3f5-068cebf7418b" Title="CubeEntityExtension Methods" Url="html/Methods.T-Cube.XRM.Framework.CubeEntityExtension.htm">
+        <HelpTOCNode Title="Clone Method " Url="html/M-Cube.XRM.Framework.CubeEntityExtension.Clone.htm" />
+        <HelpTOCNode Title="Merge Method " Url="html/M-Cube.XRM.Framework.CubeEntityExtension.Merge.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2084d90d-aaec-4bdb-bb21-79419c8db29e" Title="CubeProperty Class" Url="html/T-Cube.XRM.Framework.CubeProperty.htm">
+      <HelpTOCNode Title="CubeProperty Members" Url="html/AllMembers.T-Cube.XRM.Framework.CubeProperty.htm" />
+      <HelpTOCNode Id="d62cbca8-fec3-451c-82d9-6eb8edb52f56" Title="CubeProperty Constructor " Url="html/Overload-Cube.XRM.Framework.CubeProperty.-ctor.htm">
+        <HelpTOCNode Title="CubeProperty Constructor (Object)" Url="html/M-Cube.XRM.Framework.CubeProperty.-ctor.htm" />
+        <HelpTOCNode Title="CubeProperty Constructor (Object, CubeBase, Entity)" Url="html/M-Cube.XRM.Framework.CubeProperty.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CubeProperty Methods" Url="html/Methods.T-Cube.XRM.Framework.CubeProperty.htm" />
+      <HelpTOCNode Id="19ddcedd-6f7a-4006-a680-19a5afb455b6" Title="CubeProperty Properties" Url="html/Properties.T-Cube.XRM.Framework.CubeProperty.htm">
+        <HelpTOCNode Title="ExtensionData Property " Url="html/P-Cube.XRM.Framework.CubeProperty.ExtensionData.htm" />
+        <HelpTOCNode Title="IsSet Property " Url="html/P-Cube.XRM.Framework.CubeProperty.IsSet.htm" />
+        <HelpTOCNode Title="LogicalName Property " Url="html/P-Cube.XRM.Framework.CubeProperty.LogicalName.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P-Cube.XRM.Framework.CubeProperty.Name.htm" />
+        <HelpTOCNode Title="ValueObject Property " Url="html/P-Cube.XRM.Framework.CubeProperty.ValueObject.htm" />
+        <HelpTOCNode Title="ValueString Property " Url="html/P-Cube.XRM.Framework.CubeProperty.ValueString.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6c7e6ff4-1030-4aa9-b802-3834400b7ec4" Title="ExceptionHandler Class" Url="html/T-Cube.XRM.Framework.ExceptionHandler.htm">
+      <HelpTOCNode Title="ExceptionHandler Members" Url="html/AllMembers.T-Cube.XRM.Framework.ExceptionHandler.htm" />
+      <HelpTOCNode Id="c9c477f4-8978-49e6-b4bb-aab41c0b28ec" Title="ExceptionHandler Methods" Url="html/Methods.T-Cube.XRM.Framework.ExceptionHandler.htm">
+        <HelpTOCNode Title="HandleException Method " Url="html/M-Cube.XRM.Framework.ExceptionHandler.HandleException.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="eb704a78-14b6-454d-bbba-60cd3c6d62ad" Title="MetadataActions Class" Url="html/T-Cube.XRM.Framework.MetadataActions.htm">
+      <HelpTOCNode Title="MetadataActions Members" Url="html/AllMembers.T-Cube.XRM.Framework.MetadataActions.htm" />
+      <HelpTOCNode Title="MetadataActions Constructor " Url="html/M-Cube.XRM.Framework.MetadataActions.-ctor.htm" />
+      <HelpTOCNode Id="a444498c-e284-4106-a405-f1eab2e5d963" Title="MetadataActions Methods" Url="html/Methods.T-Cube.XRM.Framework.MetadataActions.htm">
+        <HelpTOCNode Title="GetEntityDetials Method " Url="html/M-Cube.XRM.Framework.MetadataActions.GetEntityDetials.htm" />
+        <HelpTOCNode Title="GetOptionSets Method " Url="html/M-Cube.XRM.Framework.MetadataActions.GetOptionSets.htm" />
+        <HelpTOCNode Title="GetOptionSetText Method " Url="html/M-Cube.XRM.Framework.MetadataActions.GetOptionSetText.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4ebf0f83-5778-4930-8fa7-fd94ab63a6f1" Title="ObjectCarrier Class" Url="html/T-Cube.XRM.Framework.ObjectCarrier.htm">
+      <HelpTOCNode Title="ObjectCarrier Members" Url="html/AllMembers.T-Cube.XRM.Framework.ObjectCarrier.htm" />
+      <HelpTOCNode Id="a8837355-6daf-4164-ad56-7374a232cefe" Title="ObjectCarrier Methods" Url="html/Methods.T-Cube.XRM.Framework.ObjectCarrier.htm">
+        <HelpTOCNode Title="GetAllValues Method " Url="html/M-Cube.XRM.Framework.ObjectCarrier.GetAllValues.htm" />
+        <HelpTOCNode Title="GetValue(T) Method " Url="html/M-Cube.XRM.Framework.ObjectCarrier.GetValue--1.htm" />
+        <HelpTOCNode Title="HasValue Method " Url="html/M-Cube.XRM.Framework.ObjectCarrier.HasValue.htm" />
+        <HelpTOCNode Title="SetValue Method " Url="html/M-Cube.XRM.Framework.ObjectCarrier.SetValue.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4a630abe-1975-4352-be71-9efed8ec816a" Title="QueryActions Class" Url="html/T-Cube.XRM.Framework.QueryActions.htm">
+      <HelpTOCNode Title="QueryActions Members" Url="html/AllMembers.T-Cube.XRM.Framework.QueryActions.htm" />
+      <HelpTOCNode Title="QueryActions Constructor " Url="html/M-Cube.XRM.Framework.QueryActions.-ctor.htm" />
+      <HelpTOCNode Id="c9b26d22-55f4-4707-ab02-bed96985a763" Title="QueryActions Methods" Url="html/Methods.T-Cube.XRM.Framework.QueryActions.htm">
+        <HelpTOCNode Title="GetAsLookup Method " Url="html/M-Cube.XRM.Framework.QueryActions.GetAsLookup.htm" />
+        <HelpTOCNode Title="getItemFetch Method " Url="html/M-Cube.XRM.Framework.QueryActions.getItemFetch.htm" />
+        <HelpTOCNode Title="getItemRetrieve Method " Url="html/M-Cube.XRM.Framework.QueryActions.getItemRetrieve.htm" />
+        <HelpTOCNode Title="getItemsFetch Method " Url="html/M-Cube.XRM.Framework.QueryActions.getItemsFetch.htm" />
+        <HelpTOCNode Title="getItemsFromRollupQuery Method " Url="html/M-Cube.XRM.Framework.QueryActions.getItemsFromRollupQuery.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2f9236ea-10ce-4b12-9511-d31362f694eb" Title="Result Class" Url="html/T-Cube.XRM.Framework.Result.htm">
+      <HelpTOCNode Title="Result Members" Url="html/AllMembers.T-Cube.XRM.Framework.Result.htm" />
+      <HelpTOCNode Id="15465f15-da03-4da9-921f-fe5f88d18776" Title="Result Constructor " Url="html/Overload-Cube.XRM.Framework.Result.-ctor.htm">
+        <HelpTOCNode Title="Result Constructor (Boolean, String, Object, IDetailedLog)" Url="html/M-Cube.XRM.Framework.Result.-ctor.htm" />
+        <HelpTOCNode Title="Result Constructor (Boolean, String, IDetailedLog, OrganizationResponse)" Url="html/M-Cube.XRM.Framework.Result.-ctor_1.htm" />
+        <HelpTOCNode Title="Result Constructor (Boolean, String, Object[], IDetailedLog)" Url="html/M-Cube.XRM.Framework.Result.-ctor_2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Result Methods" Url="html/Methods.T-Cube.XRM.Framework.Result.htm" />
+      <HelpTOCNode Id="660d66da-eb0d-4de4-83f6-a4b5a2dbd933" Title="Result Properties" Url="html/Properties.T-Cube.XRM.Framework.Result.htm">
+        <HelpTOCNode Title="BusinessObject Property " Url="html/P-Cube.XRM.Framework.Result.BusinessObject.htm" />
+        <HelpTOCNode Title="BusinessObjectArray Property " Url="html/P-Cube.XRM.Framework.Result.BusinessObjectArray.htm" />
+        <HelpTOCNode Title="isError Property " Url="html/P-Cube.XRM.Framework.Result.isError.htm" />
+        <HelpTOCNode Title="Message Property " Url="html/P-Cube.XRM.Framework.Result.Message.htm" />
+        <HelpTOCNode Title="Response Property " Url="html/P-Cube.XRM.Framework.Result.Response.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="efbfa8fb-fc10-43d0-9847-cfa3bce32f4f" Title="Setting Class" Url="html/T-Cube.XRM.Framework.Setting.htm">
+      <HelpTOCNode Title="Setting Members" Url="html/AllMembers.T-Cube.XRM.Framework.Setting.htm" />
+      <HelpTOCNode Title="Setting Methods" Url="html/Methods.T-Cube.XRM.Framework.Setting.htm" />
+      <HelpTOCNode Id="854edcc2-f369-471f-a31a-6e4efb4d7560" Title="Setting Properties" Url="html/Properties.T-Cube.XRM.Framework.Setting.htm">
+        <HelpTOCNode Title="Key Property " Url="html/P-Cube.XRM.Framework.Setting.Key.htm" />
+        <HelpTOCNode Title="Value Property " Url="html/P-Cube.XRM.Framework.Setting.Value.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="706fde31-3432-474b-a3cb-1410f9f3c934" Title="Cube.XRM.Framework.AddOn Namespace" Url="html/N-Cube.XRM.Framework.AddOn.htm">
+    <HelpTOCNode Id="da618df7-3ceb-4cae-a090-e740c3e2bb5e" Title="CheckAndGenerateSolutionSettings Class" Url="html/T-Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings.htm">
+      <HelpTOCNode Title="CheckAndGenerateSolutionSettings Members" Url="html/AllMembers.T-Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings.htm" />
+      <HelpTOCNode Id="065f4101-d005-46b2-b990-f1810762995a" Title="CheckAndGenerateSolutionSettings Methods" Url="html/Methods.T-Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings.htm">
+        <HelpTOCNode Title="Execute Method " Url="html/M-Cube.XRM.Framework.AddOn.CheckAndGenerateSolutionSettings.Execute.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="061584af-a643-40d7-91d4-adf53f9204df" Title="ContextWriter Class" Url="html/T-Cube.XRM.Framework.AddOn.ContextWriter.htm">
+      <HelpTOCNode Title="ContextWriter Members" Url="html/AllMembers.T-Cube.XRM.Framework.AddOn.ContextWriter.htm" />
+      <HelpTOCNode Id="a9f7e1be-fd2e-403a-8881-c6ef3b65a657" Title="ContextWriter Methods" Url="html/Methods.T-Cube.XRM.Framework.AddOn.ContextWriter.htm">
+        <HelpTOCNode Title="Write Method " Url="html/M-Cube.XRM.Framework.AddOn.ContextWriter.Write.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7ca9850f-d079-4ed7-9e89-8c8f0f35e405" Title="DetailedLog Class" Url="html/T-Cube.XRM.Framework.AddOn.DetailedLog.htm">
+      <HelpTOCNode Title="DetailedLog Members" Url="html/AllMembers.T-Cube.XRM.Framework.AddOn.DetailedLog.htm" />
+      <HelpTOCNode Id="cbd27c3c-64ae-4ced-a6ae-408595032c6d" Title="DetailedLog Methods" Url="html/Methods.T-Cube.XRM.Framework.AddOn.DetailedLog.htm">
+        <HelpTOCNode Id="5240dfdb-e425-482d-8354-84f58a30a9fb" Title="CreateLog Method " Url="html/Overload-Cube.XRM.Framework.AddOn.DetailedLog.CreateLog.htm">
+          <HelpTOCNode Title="CreateLog Method (String)" Url="html/M-Cube.XRM.Framework.AddOn.DetailedLog.CreateLog.htm" />
+          <HelpTOCNode Title="CreateLog Method (String, EventLogEntryType)" Url="html/M-Cube.XRM.Framework.AddOn.DetailedLog.CreateLog_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="LogEntityObjects Method " Url="html/M-Cube.XRM.Framework.AddOn.DetailedLog.LogEntityObjects.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3e05bce1-f2bf-48c9-b7f2-7dbeaca46eee" Title="DetailedLog Properties" Url="html/Properties.T-Cube.XRM.Framework.AddOn.DetailedLog.htm">
+        <HelpTOCNode Title="TraceService Property " Url="html/P-Cube.XRM.Framework.AddOn.DetailedLog.TraceService.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="037ada49-d010-4b45-97a2-19686f947659" Title="PluginManager Class" Url="html/T-Cube.XRM.Framework.AddOn.PluginManager.htm">
+      <HelpTOCNode Title="PluginManager Members" Url="html/AllMembers.T-Cube.XRM.Framework.AddOn.PluginManager.htm" />
+      <HelpTOCNode Title="PluginManager Constructor " Url="html/M-Cube.XRM.Framework.AddOn.PluginManager.-ctor.htm" />
+      <HelpTOCNode Id="2c8a8f02-f69b-44b3-b641-3fb7987f543e" Title="PluginManager Fields" Url="html/Fields.T-Cube.XRM.Framework.AddOn.PluginManager.htm">
+        <HelpTOCNode Title="SecureString Field" Url="html/F-Cube.XRM.Framework.AddOn.PluginManager.SecureString.htm" />
+        <HelpTOCNode Title="UnSecureString Field" Url="html/F-Cube.XRM.Framework.AddOn.PluginManager.UnSecureString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9f3be3a6-6250-475c-ab86-ec1d923077c3" Title="PluginManager Methods" Url="html/Methods.T-Cube.XRM.Framework.AddOn.PluginManager.htm">
+        <HelpTOCNode Title="Execute Method (IServiceProvider)" Url="html/M-Cube.XRM.Framework.AddOn.PluginManager.Execute.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9a3ae9b4-64bb-42c3-9f7e-49b547895dd2" Title="PluginManager Properties" Url="html/Properties.T-Cube.XRM.Framework.AddOn.PluginManager.htm">
+        <HelpTOCNode Title="PostImage Property " Url="html/P-Cube.XRM.Framework.AddOn.PluginManager.PostImage.htm" />
+        <HelpTOCNode Title="PreImage Property " Url="html/P-Cube.XRM.Framework.AddOn.PluginManager.PreImage.htm" />
+        <HelpTOCNode Title="TargetEntity Property " Url="html/P-Cube.XRM.Framework.AddOn.PluginManager.TargetEntity.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3789f315-269f-4fc9-a87d-5a9f5a73b73e" Title="WorkflowManager Class" Url="html/T-Cube.XRM.Framework.AddOn.WorkflowManager.htm">
+      <HelpTOCNode Title="WorkflowManager Members" Url="html/AllMembers.T-Cube.XRM.Framework.AddOn.WorkflowManager.htm" />
+      <HelpTOCNode Id="3d754b52-9c35-40fe-b64e-b4e34f1e766d" Title="WorkflowManager Methods" Url="html/Methods.T-Cube.XRM.Framework.AddOn.WorkflowManager.htm">
+        <HelpTOCNode Title="GetCodeActivityParameter(T) Method " Url="html/M-Cube.XRM.Framework.AddOn.WorkflowManager.GetCodeActivityParameter--1.htm" />
+        <HelpTOCNode Title="ParseURL Method " Url="html/M-Cube.XRM.Framework.AddOn.WorkflowManager.ParseURL.htm" />
+        <HelpTOCNode Title="SetCodeActivityParameter(T) Method " Url="html/M-Cube.XRM.Framework.AddOn.WorkflowManager.SetCodeActivityParameter--1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f97c6f2f-a1f6-44d3-a67f-812036a94c6a" Title="WorkflowManager Properties" Url="html/Properties.T-Cube.XRM.Framework.AddOn.WorkflowManager.htm">
+        <HelpTOCNode Title="DetailedException Property " Url="html/P-Cube.XRM.Framework.AddOn.WorkflowManager.DetailedException.htm" />
+        <HelpTOCNode Title="ExceptionMessage Property " Url="html/P-Cube.XRM.Framework.AddOn.WorkflowManager.ExceptionMessage.htm" />
+        <HelpTOCNode Title="IsExceptionOccured Property " Url="html/P-Cube.XRM.Framework.AddOn.WorkflowManager.IsExceptionOccured.htm" />
+        <HelpTOCNode Title="ThrowException Property " Url="html/P-Cube.XRM.Framework.AddOn.WorkflowManager.ThrowException.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="65d85ce2-1ea0-420f-a676-bc8e2f9be61d" Title="Cube.XRM.Framework.Core Namespace" Url="html/N-Cube.XRM.Framework.Core.htm">
+    <HelpTOCNode Id="35c2a553-de03-49cb-9a55-4d5e6ada09b6" Title="DetailedLog Class" Url="html/T-Cube.XRM.Framework.Core.DetailedLog.htm">
+      <HelpTOCNode Title="DetailedLog Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.DetailedLog.htm" />
+      <HelpTOCNode Id="616d9709-5d45-41ac-93a8-007526f3ec47" Title="DetailedLog Constructor " Url="html/Overload-Cube.XRM.Framework.Core.DetailedLog.-ctor.htm">
+        <HelpTOCNode Title="DetailedLog Constructor (ILogger, LogLevel, String, LogScreen)" Url="html/M-Cube.XRM.Framework.Core.DetailedLog.-ctor.htm" />
+        <HelpTOCNode Title="DetailedLog Constructor (ILogger, LogLevel, SqlConnection, LogScreen)" Url="html/M-Cube.XRM.Framework.Core.DetailedLog.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="63abab97-9f12-4211-92ff-f48c1b9bb104" Title="DetailedLog Methods" Url="html/Methods.T-Cube.XRM.Framework.Core.DetailedLog.htm">
+        <HelpTOCNode Id="f37a8460-f916-4b3f-87a3-6944b655731e" Title="CreateLog Method " Url="html/Overload-Cube.XRM.Framework.Core.DetailedLog.CreateLog.htm">
+          <HelpTOCNode Title="CreateLog Method (String)" Url="html/M-Cube.XRM.Framework.Core.DetailedLog.CreateLog.htm" />
+          <HelpTOCNode Title="CreateLog Method (String, EventLogEntryType)" Url="html/M-Cube.XRM.Framework.Core.DetailedLog.CreateLog_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="LogEntityObjects Method " Url="html/M-Cube.XRM.Framework.Core.DetailedLog.LogEntityObjects.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="072007ad-c081-4c98-ad77-19745fc26001" Title="EnumCarrier Class" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.htm">
+      <HelpTOCNode Title="EnumCarrier Methods" Url="html/Methods.T-Cube.XRM.Framework.Core.EnumCarrier.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="EnumCarrier.LogLevel Enumeration" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.LogLevel.htm" />
+    <HelpTOCNode Title="EnumCarrier.LogLocation Enumeration" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.LogLocation.htm" />
+    <HelpTOCNode Title="EnumCarrier.LogScreen Enumeration" Url="html/T-Cube.XRM.Framework.Core.EnumCarrier.LogScreen.htm" />
+    <HelpTOCNode Id="2c06eeed-62a2-471f-81db-e96fff3b2a0b" Title="FrameworkInitializer Class" Url="html/T-Cube.XRM.Framework.Core.FrameworkInitializer.htm">
+      <HelpTOCNode Title="FrameworkInitializer Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.FrameworkInitializer.htm" />
+      <HelpTOCNode Id="9ef1525e-fffa-4cf6-8f1d-1fb9eaa635ac" Title="FrameworkInitializer Constructor " Url="html/Overload-Cube.XRM.Framework.Core.FrameworkInitializer.-ctor.htm">
+        <HelpTOCNode Title="FrameworkInitializer Constructor " Url="html/M-Cube.XRM.Framework.Core.FrameworkInitializer.-ctor.htm" />
+        <HelpTOCNode Title="FrameworkInitializer Constructor (String)" Url="html/M-Cube.XRM.Framework.Core.FrameworkInitializer.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FrameworkInitializer Methods" Url="html/Methods.T-Cube.XRM.Framework.Core.FrameworkInitializer.htm" />
+      <HelpTOCNode Id="fa86660e-944d-4f11-a129-5ff10dc53651" Title="FrameworkInitializer Properties" Url="html/Properties.T-Cube.XRM.Framework.Core.FrameworkInitializer.htm">
+        <HelpTOCNode Title="cube Property " Url="html/P-Cube.XRM.Framework.Core.FrameworkInitializer.cube.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4c2195f0-094e-4391-b71a-21345eedc6d3" Title="ISettingGroup Interface" Url="html/T-Cube.XRM.Framework.Core.ISettingGroup.htm">
+      <HelpTOCNode Title="ISettingGroup Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.ISettingGroup.htm" />
+      <HelpTOCNode Title="ISettingGroup Methods" Url="html/Methods.T-Cube.XRM.Framework.Core.ISettingGroup.htm" />
+      <HelpTOCNode Id="5adad578-79b5-4858-8cf9-e8943b6750f3" Title="ISettingGroup Properties" Url="html/Properties.T-Cube.XRM.Framework.Core.ISettingGroup.htm">
+        <HelpTOCNode Title="GroupName Property " Url="html/P-Cube.XRM.Framework.Core.ISettingGroup.GroupName.htm" />
+        <HelpTOCNode Title="Settings Property " Url="html/P-Cube.XRM.Framework.Core.ISettingGroup.Settings.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="da0cb7cc-0390-4042-8690-55feec6c543a" Title="Service Class" Url="html/T-Cube.XRM.Framework.Core.Service.htm">
+      <HelpTOCNode Title="Service Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.Service.htm" />
+      <HelpTOCNode Title="Service Constructor " Url="html/M-Cube.XRM.Framework.Core.Service.-ctor.htm" />
+      <HelpTOCNode Id="4eb2b8aa-0abc-4a20-b822-0e164146e14d" Title="Service Methods" Url="html/Methods.T-Cube.XRM.Framework.Core.Service.htm">
+        <HelpTOCNode Id="45e183d9-e16f-434e-bc8a-288106c37f93" Title="GetService Method " Url="html/Overload-Cube.XRM.Framework.Core.Service.GetService.htm">
+          <HelpTOCNode Title="GetService Method (String, String, String)" Url="html/M-Cube.XRM.Framework.Core.Service.GetService.htm" />
+          <HelpTOCNode Title="GetService Method (String)" Url="html/M-Cube.XRM.Framework.Core.Service.GetService_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="eed4aaf5-914e-4de5-9341-3201ae25447a" Title="SettingGroup Class" Url="html/T-Cube.XRM.Framework.Core.SettingGroup.htm">
+      <HelpTOCNode Title="SettingGroup Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.SettingGroup.htm" />
+      <HelpTOCNode Title="SettingGroup Methods" Url="html/Methods.T-Cube.XRM.Framework.Core.SettingGroup.htm" />
+      <HelpTOCNode Id="9956d05a-67c5-4aa1-b0b2-967bfd5abf73" Title="SettingGroup Properties" Url="html/Properties.T-Cube.XRM.Framework.Core.SettingGroup.htm">
+        <HelpTOCNode Title="GroupName Property " Url="html/P-Cube.XRM.Framework.Core.SettingGroup.GroupName.htm" />
+        <HelpTOCNode Title="Settings Property " Url="html/P-Cube.XRM.Framework.Core.SettingGroup.Settings.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="9732ddc8-4450-4d86-980e-adb8233b22e8" Title="Cube.XRM.Framework.Core.Loggers Namespace" Url="html/N-Cube.XRM.Framework.Core.Loggers.htm">
+    <HelpTOCNode Id="691c9781-1a1a-411f-9f5c-c29d0bad7037" Title="ILogger Interface" Url="html/T-Cube.XRM.Framework.Core.Loggers.ILogger.htm">
+      <HelpTOCNode Title="ILogger Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.Loggers.ILogger.htm" />
+      <HelpTOCNode Id="ee1c9d04-acd1-4d2a-af54-a4944ced0f9b" Title="ILogger Methods" Url="html/Methods.T-Cube.XRM.Framework.Core.Loggers.ILogger.htm">
+        <HelpTOCNode Title="Save Method " Url="html/M-Cube.XRM.Framework.Core.Loggers.ILogger.Save.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="3475c369-1ffd-4d8a-8c4f-5c65a8a9110d" Title="Cube.XRM.Framework.Core.Settings Namespace" Url="html/N-Cube.XRM.Framework.Core.Settings.htm">
+    <HelpTOCNode Id="6d08fc56-2c9e-483f-9289-8eb57a4d702c" Title="ISettingReader Interface" Url="html/T-Cube.XRM.Framework.Core.Settings.ISettingReader.htm">
+      <HelpTOCNode Title="ISettingReader Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.Settings.ISettingReader.htm" />
+      <HelpTOCNode Id="7fd7a2bd-9de3-46bf-8ed5-a11194c5a310" Title="ISettingReader Methods" Url="html/Methods.T-Cube.XRM.Framework.Core.Settings.ISettingReader.htm">
+        <HelpTOCNode Id="8f71164c-2b6f-4c7a-a8d9-4b702855c52b" Title="Read Method " Url="html/Overload-Cube.XRM.Framework.Core.Settings.ISettingReader.Read.htm">
+          <HelpTOCNode Title="Read Method " Url="html/M-Cube.XRM.Framework.Core.Settings.ISettingReader.Read.htm" />
+          <HelpTOCNode Title="Read Method (String)" Url="html/M-Cube.XRM.Framework.Core.Settings.ISettingReader.Read_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="19b669b2-4149-4da1-b314-e7277df22b2c" Title="XMLSettingReader Class" Url="html/T-Cube.XRM.Framework.Core.Settings.XMLSettingReader.htm">
+      <HelpTOCNode Title="XMLSettingReader Members" Url="html/AllMembers.T-Cube.XRM.Framework.Core.Settings.XMLSettingReader.htm" />
+      <HelpTOCNode Id="52f4275a-197b-4586-aaab-539a7f82b2fa" Title="XMLSettingReader Methods" Url="html/Methods.T-Cube.XRM.Framework.Core.Settings.XMLSettingReader.htm">
+        <HelpTOCNode Id="67e84b6d-2ded-4d36-a96c-3adaadcdd20f" Title="Read Method " Url="html/Overload-Cube.XRM.Framework.Core.Settings.XMLSettingReader.Read.htm">
+          <HelpTOCNode Title="Read Method " Url="html/M-Cube.XRM.Framework.Core.Settings.XMLSettingReader.Read.htm" />
+          <HelpTOCNode Title="Read Method (String)" Url="html/M-Cube.XRM.Framework.Core.Settings.XMLSettingReader.Read_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="66c773a8-ebb6-431e-b16c-f1bce38bfbad" Title="Cube.XRM.Framework.Interfaces Namespace" Url="html/N-Cube.XRM.Framework.Interfaces.htm">
+    <HelpTOCNode Id="8b83d013-4ae6-457a-9ed7-1248b0e24c55" Title="IDetailedLog Interface" Url="html/T-Cube.XRM.Framework.Interfaces.IDetailedLog.htm">
+      <HelpTOCNode Title="IDetailedLog Members" Url="html/AllMembers.T-Cube.XRM.Framework.Interfaces.IDetailedLog.htm" />
+      <HelpTOCNode Id="9c2a73cb-4b19-4398-a6e1-96e1d1ee15c6" Title="IDetailedLog Methods" Url="html/Methods.T-Cube.XRM.Framework.Interfaces.IDetailedLog.htm">
+        <HelpTOCNode Id="78fba273-a3a9-4b14-8049-688bb6d6f5aa" Title="CreateLog Method " Url="html/Overload-Cube.XRM.Framework.Interfaces.IDetailedLog.CreateLog.htm">
+          <HelpTOCNode Title="CreateLog Method (String)" Url="html/M-Cube.XRM.Framework.Interfaces.IDetailedLog.CreateLog.htm" />
+          <HelpTOCNode Title="CreateLog Method (String, EventLogEntryType)" Url="html/M-Cube.XRM.Framework.Interfaces.IDetailedLog.CreateLog_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="LogEntityObjects Method " Url="html/M-Cube.XRM.Framework.Interfaces.IDetailedLog.LogEntityObjects.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5d289577-cc94-4be1-a8e7-edd6a5c0fefc" Title="ISetting Interface" Url="html/T-Cube.XRM.Framework.Interfaces.ISetting.htm">
+      <HelpTOCNode Title="ISetting Members" Url="html/AllMembers.T-Cube.XRM.Framework.Interfaces.ISetting.htm" />
+      <HelpTOCNode Title="ISetting Methods" Url="html/Methods.T-Cube.XRM.Framework.Interfaces.ISetting.htm" />
+      <HelpTOCNode Id="98da8eb6-0bfb-45b8-a856-4a41bc826b93" Title="ISetting Properties" Url="html/Properties.T-Cube.XRM.Framework.Interfaces.ISetting.htm">
+        <HelpTOCNode Title="Key Property " Url="html/P-Cube.XRM.Framework.Interfaces.ISetting.Key.htm" />
+        <HelpTOCNode Title="Value Property " Url="html/P-Cube.XRM.Framework.Interfaces.ISetting.Value.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="e9113e3b-cba2-4d45-ab98-a3ef17e24859" Title="Cube.XRM.Framework.Serializers Namespace" Url="html/N-Cube.XRM.Framework.Serializers.htm">
+    <HelpTOCNode Id="4a813490-f2b2-4409-8475-d941f0f0fe97" Title="SerializeHelper Class" Url="html/T-Cube.XRM.Framework.Serializers.SerializeHelper.htm">
+      <HelpTOCNode Title="SerializeHelper Members" Url="html/AllMembers.T-Cube.XRM.Framework.Serializers.SerializeHelper.htm" />
+      <HelpTOCNode Id="3dc60ea9-8ec9-4ff5-bcf9-b0e0f88ac970" Title="SerializeHelper Methods" Url="html/Methods.T-Cube.XRM.Framework.Serializers.SerializeHelper.htm">
+        <HelpTOCNode Title="SerializeEntity Method " Url="html/M-Cube.XRM.Framework.Serializers.SerializeHelper.SerializeEntity.htm" />
+        <HelpTOCNode Title="SerializeEntityImageCollection Method " Url="html/M-Cube.XRM.Framework.Serializers.SerializeHelper.SerializeEntityImageCollection.htm" />
+        <HelpTOCNode Title="SerializeParameterCollection Method " Url="html/M-Cube.XRM.Framework.Serializers.SerializeHelper.SerializeParameterCollection.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="569280fb-cf64-4dd2-ba8d-57932cba6b84" Title="Cube.XRM.Framework.SolutionSettings Namespace" Url="html/N-Cube.XRM.Framework.SolutionSettings.htm">
+    <HelpTOCNode Id="40f046be-78dc-4426-82a6-3539a74eddc7" Title="SolutionActions Class" Url="html/T-Cube.XRM.Framework.SolutionSettings.SolutionActions.htm">
+      <HelpTOCNode Title="SolutionActions Members" Url="html/AllMembers.T-Cube.XRM.Framework.SolutionSettings.SolutionActions.htm" />
+      <HelpTOCNode Title="SolutionActions Constructor " Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionActions.-ctor.htm" />
+      <HelpTOCNode Id="450fcd3f-b090-4ecb-a16f-f31f7065004f" Title="SolutionActions Methods" Url="html/Methods.T-Cube.XRM.Framework.SolutionSettings.SolutionActions.htm">
+        <HelpTOCNode Title="GetItem Method " Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionActions.GetItem.htm" />
+        <HelpTOCNode Title="ParseItem Method " Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionActions.ParseItem.htm" />
+        <HelpTOCNode Title="PrepareEntity Method " Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionActions.PrepareEntity.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7e3088ce-e86b-41b1-8f96-5a6daf78d91e" Title="SolutionActions Properties" Url="html/Properties.T-Cube.XRM.Framework.SolutionSettings.SolutionActions.htm">
+        <HelpTOCNode Title="CreatedOn Property " Url="html/P-Cube.XRM.Framework.SolutionSettings.SolutionActions.CreatedOn.htm" />
+        <HelpTOCNode Title="Identifier Property " Url="html/P-Cube.XRM.Framework.SolutionSettings.SolutionActions.Identifier.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P-Cube.XRM.Framework.SolutionSettings.SolutionActions.Name.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="454c40c5-6e76-42a0-8420-c1ee9d4ee831" Title="SolutionSettingActions Class" Url="html/T-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.htm">
+      <HelpTOCNode Title="SolutionSettingActions Members" Url="html/AllMembers.T-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.htm" />
+      <HelpTOCNode Title="SolutionSettingActions Constructor " Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.-ctor.htm" />
+      <HelpTOCNode Id="76273389-203a-4d1f-ad46-fefaaf23adc2" Title="SolutionSettingActions Methods" Url="html/Methods.T-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.htm">
+        <HelpTOCNode Title="GetItems Method " Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.GetItems.htm" />
+        <HelpTOCNode Title="GetLicenseItem Method " Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.GetLicenseItem.htm" />
+        <HelpTOCNode Title="ParseItem Method " Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.ParseItem.htm" />
+        <HelpTOCNode Title="PrepareEntity Method " Url="html/M-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.PrepareEntity.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9ef718bc-2ed8-4898-ab16-254bc0b8c365" Title="SolutionSettingActions Properties" Url="html/Properties.T-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.htm">
+        <HelpTOCNode Title="Name Property " Url="html/P-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.Name.htm" />
+        <HelpTOCNode Title="SecureValue Property " Url="html/P-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.SecureValue.htm" />
+        <HelpTOCNode Title="SolutionId Property " Url="html/P-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.SolutionId.htm" />
+        <HelpTOCNode Title="Value Property " Url="html/P-Cube.XRM.Framework.SolutionSettings.SolutionSettingActions.Value.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
